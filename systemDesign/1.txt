@@ -1,0 +1,51 @@
+Return the most popular 10 words in the past 24 hours for twitter 
+Follow up in order to reduce the size of each log, do not write timestamp, how to get the same answer,
+
+--------
+
+Design Live comments. If your facebook.com homepage is open with bunch of feeds and if someone comments on those feeds, the comments should automatically show up in facebook.com home page without refreshing the page. Feeds could be a simple status update by a friend, post in a group, post by a person you're following, post in a page you've liked etc. 
+
+Few things what they are looking for - 
+1. How do you solve it initially and how do you scale it? 
+2. How do you scale push model in-case if you choose PUSH model to solve it? 
+3. If push cannot scale how do you solve it? 
+4. How pull model solves it? 
+5. When will you use push vs pull?
+
+---------
+Design an online poker game for multiplayer. Solve for persistence, concurrency, scale . Draw the ER diagram for this
+
+-----
+Design dropbox's architecture.
+
+-----
+Design a picture sharing website. How will you store thumbnails, photos? Usage of CDNS? caching at various layers etc.
+
+--------
+Search engine (generally asked with people who have some domain knowledge ) : basic crawling, collection, hashing etc. Dependes on your expertise on this topic
+
+-------
+A web application for chatting, eg whatsapp, facebook chat. Issues of each, scaling problems, status and availablility notification etc.
+
+------
+Design a system for collaberating over a document simulataneously (eg google docs)
+
+-----
+(very common:) top 'n' or most frequent items of a running stream of data
+
+----
+Suppose that there exists a service to fetch Facebook posts through an interface defined by you, design the Facebook wall feed.
+
+------
+design fb inbox search --> just focus on the post
+
+------
+Design news feed.
+A user wrote a post with the basic user info, pictures and time etc (I even drafted a basic UI on whiteboard).
+How to obtain these information and store them.
+If a new feature with a button is added. How to maintain availability of old service to users who did not update the app.
+Did not dive further into scaling.
+
+-------
+User groups - If I made a certain post visible to a user group, how to store the post? how to push the post to the chosen group. If there are new friends who aren't assigned to any group just yet, how to treat them as if they were in the same 'unassigned' group?
+DB sharding is involveds

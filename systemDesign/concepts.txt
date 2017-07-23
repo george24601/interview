@@ -1,0 +1,20 @@
+1.What is the difference between threads and processes?
+Threads have direct access to the data segment of its process; processes have their own copy of the data segment of the parent process.
+New threads are easily created; new processes require duplication of the parent process.
+Threads can exercise considerable control over threads of the same process; processes can only exercise control over child processes.
+Changes to the main thread (cancellation, priority change, etc.) may affect the behavior of the other threads of the process; changes to the parent process do not affect child processes.
+Each thread has a separate stack for procedure calls in shared memory. Thread is unit of sequential execution. With regs and IP, but heap and data is common to the process
+
+
+
+2.How do processes communicate with each other?
+Files - In unix it is everything except processes, the API, regardless of underlying structure, is a file handle
+1.Regular file – named, linear stream of data bytes
+2.Sockets - endpoints of communication, possible between unrelated processes
+3.Pipes - unidirectional I/O stream, can be unnamed
+4.Devices 
+
+3.How does DNS work?
+
+4.How does virtual address work?
+

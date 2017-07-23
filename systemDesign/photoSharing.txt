@@ -1,0 +1,5 @@
+http://blog.gainlo.co/index.php/2016/03/01/system-design-interview-question-create-a-photo-sharing-app/
+
+How to create a photo sharing app like Instagram?
+
+More specifically, the system allows people to follow each other, share/comment/like pictures, and maybe some other features like explore, advertisement and so on so forth.

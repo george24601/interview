@@ -1,0 +1,90 @@
+------
+Suppose you have a 2-D grid. Each point is either land or water. 
+There is also a start point and a goal.
+There are also keys that open up doors. Each key corresponds to one door. 
+Implement a function that returns the shortest path from the start to the 
+goal using land tiles, keys and open doors.
+
+Data Representation
+The board will be passed as an array of chars.
+
+A board can have the following tiles.
+0 = Water 
+1 = Land
+2 = Start
+3 = Goal
+
+uppercase = door
+lowercase = key
+Example Maps (keys at each step are not required)
+`No doors`
+char[][] board1 = {{'0', '2', '1', '1', '1'},
+				   {'0', '1', '0', '0', '1'},
+				   {'0', '1', '0', '0', '3'},
+				   {'0', '1', '0', '0', '1'},
+				   {'0', '1', '1', '1', '1'}};
+path : [0,1]->[0,2]->[0,3]->[0,4]->[1,4]->[2,4]
+
+`One door`
+char[][] board2 = {{'0', '2', '1', '1', '1'},
+				   {'0', '1', 'a', '0', 'A'},
+				   {'0', '1', '0', '0', '3'},
+				   {'0', '1', '0', '0', '1'},
+				   {'0', '1', '1', '1', '1'}};
+path : [0,1]->[0,2]->[1,2]->[0,2]->[0,3]->[0,4]->[1,4]->[2,4]
+public List<int[]> solve(char[][] board) {
+
+------
+
+Given a large MxN matrix of 1s and 0s like this:
+
+
+1 1 0 0 1 0 1
+1 0 1 0 0 1 1
+0 1 1 1 0 1 0
+...
+Calculate the number of 1s in a given subset PxQ matrix. In effect, write a function:
+
+
+int ones(int startx, int starty, int len, int width);
+Looking for something better than O(n^2).
+
+--------
+tokenize string, "" and [] are token flags, such as 
+mytable "foo" [bar] "" [[[[]]]. 
+
+"" Turned into ",]] turned into], [[not escaped 
+The results of the example given above: 
+mytable 
+foo 
+bar " 
+[[] 
+public List<String> tokenizestring(String s){ 
+}
+
+--------
+
+Create an iterator class that stores a list of the built-in Iterators. 
+Implement the next() and hasNext() methods in a Round Robin pattern (pops next element in a circle). 
+Example: 
+Given a list [iterator1,iterator2, iterator3...] 
+when calling RoundIterator.next() 
+pops iterator1.next if iterator1.hasNext() is true 
+when calling RoundIterator.next() 
+pops iterator2.next() if iterator2.hasNext() is true 
+when calling RoundIterator.next() 
+pops iterator3.next if iterator3.hasNext() is true 
+... 
+when calling RoundIterator.next() 
+pops iterator1.next if iterator1.hasNext() is true 
+when calling RoundIterator.next() 
+pops iterator2.next if iterator2.hasNext() is true 
+when calling RoundIterator.next() 
+pops iterator3.next if iterator3.hasNext() is true 
+... 
+until there is no more element in any of the iterators
+
+------
+
+
+

@@ -1,0 +1,149 @@
+Design a unix cron job-like utility
+
+How it is implemented in unix system.
+
+On startup, look for .crontab file in the home folder of all account holders
+
+For each crontab file found, determin the next time in the future each command should run
+
+place those commands in F-M event list with next time to run and "five field" time specifier
+
+In the main loop
+        look at the head of queue, and sleep for that period of time
+        sleep for tht period of time
+        after verifying the correct time, execute the task at the head of the queue (in background) with the privileges of the user who created it
+Determine the next time in the future to run this command and place it back on the event list at that time value.
+
+
+Variations:
+1. what if we want to keep track of status, and ensure only one instance is running
+
+2. what if the whole thing is distributed and you want HA?
+
+#######
+
+Design a dapper-like system for tracing and monitoring
+1. Have the ability to drill down a certain request and see its sequence of actions
+
+2. Have the ability to run analytical queries to see average latency, tail latency, latency by the machine/cluster etc
+
+Design
+--------
+We need to generate a request id, for each request, and session id
+The request can be embedded in the header
+
+WHen we forward the RPC calls, the session id should be forwarded, as long with the parent request id
+
+In the end we will have a tree of requests
+
+On client side, we should do uniformed random sampling based on session id. (0.1% is good enough)
+
+On the service side, we can maintain a distributed log to accept all incoming requests. This log will go to two sinks
+
+One a k-v store that keyed by session id, column name by request id/name
+
+one to a simple HDFS sink for full-table scan analytical queries. This HDFS sink is also useful in case of loss of data
+
+Q: do we need aggregated view of acorss all DCs?
+
+Then we need aggregated log and run populate k-v store and  HDFS
+
+
+How long we want to keep the data?
+1. Data in HDFS can be partitied by time and thus easily purgable
+
+2. Can do a FTS on k-v store every 4 weeks or reaches a certain thresold, e.g., you know half of that is redundant anyway
+
+
+#######
+
+Consider we have mail client that updates the blocked website list for our service. Design one such service so that we can distribute the black list.
+the server list is updated once per second
+the client pulls our service once every 30 mins
+
+Design:
+Obviously, we need to optimize for read performance
+
+so the client has been updated 1800 times between each pull
+
+The client should send a request fetchUpdate(clientVersion), which should return the deltas since the client version
+
+On the reader side, we should have a list of deltas and with each version, and return list of versions. In a k-v store that supports range scan, this should be highly efficient => because they are aligned together in persistant layer
+
+To future improve performance for long missed read, we can have a compacted view every certain versions,
+if the new request < last compacted version, just return the whole thing. we should do a log compaction from time to time to purge too old deltas.
+
+In terms of global updates, we will designate 1 DC as master, and other as slaves, and we use cross region ZK to locate which one is alive and forward all write traffic to it. when the master recovered, we will just talk to the new master and sync from the single source of truth to recover
+
+########
+
+Design a system such that every time we bought an item, we show on the item page number of that item bought in the last 24 hours.
+
+Q: how soon you want to see the result materialized?
+We need to update the count as soon as a user purchased something
+
+Q:
+Workload: 10k per second purchases, 200k per second visits
+Ideally we want to limit the request to each instance less than 5k per second, given the nature of network calls. However, this is a very
+rough estimate based on experience. We need to proper load testing against at least PoC cluster to have a basic idea
+
+Q:
+Since we are using windowed aggregation, what is the sliding window?
+We can slide it by hour
+
+Q:
+For the query result, should we do pre-computation or compute on the spot?
+We will try computing on the spot first, and then see how much pre-compuataion we can introduce, as optimization
+
+Basic idea:
+for each purchase, we generate a (itemID, hour of purchase, number purchase, metadata), message, and in DB we keep (itemID, hour of
+purchase) -> count mappings, upon receiving a new event, we update the corresponding entry
+
+For every page hit, we can do a range search based on (itemID, minHour) ->(itemId, maxHour), and calculate the result in memory, since i assume most dbs accept such sorted range queries efficiently
+
+Now what kind of pre-computation can we introduce to save processing times
+
+alternatively, upon receiving the event, we can update all 24 hours result in the future. The main benefit is that upon read, it will be a k-v look up instead of sorted range scan. However, since the scan range is ordered, it should be efficient anyway, and producer doesn't need to understand consumer's requirements -> nicely decoupled
+
+Note the trade off here: we spend more space to save SOME processing time, and if an item is not very frequently used, we end up wasting all the space!
+
+Consider mutli-DC case
+Standard: aggregate cluster problem, either active acitve or active passive
+active - active: each cluster has an aggregate cluster, and service points only to those processer/states within the same DC. Note that if
+my queue is active-active, my db needs to active-active too, so that we can benefit from the independence of AA model
+
+active-passive:
+The problem with AA is that we don't want to have an aggregate cluster on every single one. So we just mark a few of the DC as master DC, and host aggregate clusters only on those DCs.
+
+We broad cast to potential master DCs all the time, but only one updates state at any time. The db state will be CLC ed to all other DCs so consumers can use
+
+From HA perspective, when the master is down and up again, we need to repopulate lost data to old master from the new master
+
+
+-------------------
+Follow-up: what if we want to show most popular items among all items in the last 24 hours
+
+Every now and then, we can do a full table scan to calucate
+1. total number of a single item sold in the last 24 hours
+2. max of those #s sold
+
+the data volume would be 24 * 3600 * 10k = 40 M rows =>  scatter it into 10 processors, each has noly 4M rows, and populate it into a
+serving data store. Of course, we probably run the full table scan of such data in a read slave
+
+----------
+Follow-up: On top of version 1, the result update should be instant
+
+Upon seeing a new record, the processor needs to do the recalculation, or we can use mini-batches
+1. get all items sold in the last 24 hours => need to maintain a meta data on what was sold => 40M rows we can even maintain in memory! but
+to be safe, worth loading the whole thing into master and divide and conquer
+2. compute their sums
+3. find the new order
+4. populate the serving data store, so that we don't have to do live recomputation on the ready query, we do it on the write!
+
+Moreover, if the process should run at least once an hour, to make sure our serving db has up to date result
+
+---------
+Follow-up: what if we just want to return the top 10 items?
+1. then we need to maintain the top 10 items in db
+2. upon a new event, we calculate the last-24 hour sum for all the 11 items, and update the result
+3. we also need to maintain the case of last computed, so that when we serve the data we can just ignore stale/outdated ones

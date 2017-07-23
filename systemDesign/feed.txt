@@ -1,0 +1,1 @@
+Given the newest 100 entries of a person's facebook newsfeed. How would you rank the entries. The (for the user) most important ones should be ranked first. Which features would you use and how do you train/improve your model (machine learning)?

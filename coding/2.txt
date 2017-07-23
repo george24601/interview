@@ -1,0 +1,196 @@
+-------
+Given a set of possibly overlapping rectangles in different levels (All of which are "not rotated", can be uniformly represented as (left-bottom,right-top) tuplets), return a minimal set of (non-rotated) non-overlapping rectangles, that occupy the same area. 
+The rectangle at lower level has more priority than at higher levels.
+
+-------
+------
+
+Given a decimal number, write a function that returns its negabinary (i.e. negative 2-base) representation as a string.
+
+assert solution(-15) ==	'110001'
+assert solution(2) == '110'
+assert solution(13) == '11101'
+
+-------
+
+Given integer k and a subset S of set {0, 1, 2, ..., 2^k - 1} 
+Return the count of pairs (a, b) where a and b are from S and (a < b) and (a & b == a) 
+& here is bit-wise and. 
+Do it faster than O((2^k)^2), assume k <= 16 
+
+Example: 
+0b111 
+0b101 
+0b010 
+Answer: 2 
+
+0b110 
+0b011 
+0b101 
+Answer: 0
+
+------
+
+You are given a set of points on x axis (consumers) 
+Also you are given a set of points on a plane (producer) 
+
+For every consumer print the nearest producer. 
+Wanted something better than O(n^2) time. 
+
+Example: 
+consumers: 1 5 7 
+producers: (0, 3), (1,1), (3, 2), (8, 10), (9, 100) 
+
+Answer: 
+for 1 nearest producer is (1, 1), for 5 nearest is (3, 2), for 7 nearest is (3, 2)
+
+Follow-up question: now both sets are sorted by x coordinate. Could you come up with a linear algorithm?
+
+-------
+
+Given n, return 1 ^ 2 ^ 3 ^ ... ^ n 
+Where ^ is binary xor. 
+Note: n is a 64-bit number, and 1<<63 is a valid n for this problem. 
+
+Examples:
+
+
+>>> reduce(lambda a,b:a^b, [1,2,3])
+0
+>>> reduce(lambda a,b:a^b, [1,2,3,4])
+4
+>>> reduce(lambda a,b:a^b, [1,2,3,4,5,6,7])
+0
+>>> reduce(lambda a,b:a^b, [1,2,3,4,5,6,7,8,9])
+1
+
+--------
+
+You are given a permutation arr[N]. E.g. arr[3] = {2, 1, 0} or arr[5] = {0,1,2,4,3}; 
+Then you can prepare somehow and then start serving requests: request(a, b, k) = sorted(arr[a:b])[k], that is, k-th order statistic on slice [a:b] of arr. 
+E.g. if arr is [3,4,5,0,1,2] and a = 2 and b = 5, then arr[a:b] = [5,0,1] and let k = 2, so we sort it - get [0,1,5] and take k-th element, that is - 5. 
+
+Implement request(a, b, k) function. You can preprocess input data, that is, assume there will be only one array and many request() calls.
+
+------
+
+Given an int array without repeated elements and a target, count the total number of subset that can be generated from the array such that min (subset) + max (subset) < target 
+public int countSubSet(int[] nums, int target){ 
+
+}
+
+------
+
+Data structure design, N horse races, there are 10 checkpoints, whenever a horse through a check point will produce a (horse number, check point number) message, then design a data structure and algorithm to update the messages and then get the top 3 horse efficiently.
+
+-----
+
+how to find leaf node value from preorder sequence of BST without rebuilding the tree
+
+-------
+
+Say you have an array for which the ith element is the price of a given stock on day i. 
+
+Design an algorithm to find the maximum profit. You may complete as many transactions as you like (ie, buy one and sell one share of the stock multiple times). However, you may not engage in multiple transactions at the same time (ie, you must sell the stock before you buy again). 
+, but each time you sell you need to pay transaction fee, please calculate the maximum profit you can take. 
+
+public int maxProfit(int[] prices, int fee) { 
+
+}
+
+------
+
+for a binary tree, print the root to the leaf path, but add "_" to indicate the relative position. 
+example:
+
+
+A 
+       /   \  
+      B     C 
+     / \   / \
+    D  E   F  G
+
+output
+_ _ A
+_ B
+D
+
+_A
+B
+_E
+
+A
+_C
+F
+
+A
+_ C
+_ _ G
+
+------
+
+Given a string and dictionary of words, form a word by removing minimum number of characters. Characters can be removed in-order only.
+
+----
+Find longest consecutive path in a binary tree. 
+1. the path can be decreasing or increasing, i.e [1,2,3,4] and [4,3,2,1] are both valid 
+2. the path can be child-parent-child, not necessarily a parent-to-child path 
+
+similar to this question: http://www.geeksforgeeks.org/longest-consecutive-sequence-binary-tree/
+
+-----
+Implement delete operation for N-ary tree. Your function should return a list of roots after deletion operation. Notice that your delete function only delete one node instead of a subtree. The delete function takes a list of nodes to be deleted.
+
+
+private class TreeNode {
+   int val;
+   TreeNode[ ] child;
+}
+
+List<TreeNode> delete(TreeNode root, HashSet<TreeNode> set) { }
+------
+Return the length of longest possible chunked palindrome string. 
+
+Examples : 
+
+Input : VOLVO 
+Output : 3 
+Explanation : 
+(VO)L(VO) 
+
+
+Input : merchant 
+Output : 1 
+
+Explanation : No chunks possible. 
+
+Input : 
+
+ghiabcdefhelloadamhelloabcdefghi 
+
+Output : 7 
+
+Explanation : 
+
+(ghi)(abcdef)(hello)(adam)(hello)(abcdef)(ghi)
+
+-------
+
+Given a list of manager and employee information represented in hashMap entries {AAA->BBB,CCC,EEE},{CCC->DDD}. 
+Print company structure tree with proper indentations. BBB, CCC and EEE directly reports to AAA, so they have one white space before "-", DDD reports to CCC, it has two whitespace before "-". The input is map<String,List<String>>
+
+
+-AAA
+ -BBB
+ -CCC
+  -DDD
+ -EEE
+------
+
+Given a pattern and a string - find if the string follows the same pattern Eg: Pattern : [a b b a], String : cat dog dog cat
+
+----
+As an input, you have points on a 2D graph. You aim to find a straight line that can fit as my points as possible. Return, the maximum number of points you can fit.
+
+
+

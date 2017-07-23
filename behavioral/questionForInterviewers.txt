@@ -1,0 +1,33 @@
+Here are problems I ran into during my job, and I have to come up with solutions. These are genuine problems that I don't think I have a good answer. 
+
+1. How do you test your fault-tolerance code?
+The common approach seems to do that during system testing, e.g., chaos monkey. But how to "detect" anomaly when something went wrong?
+Any effort/attempt to do something in unit/integration testing?
+
+2. How do you test the correctness of your stream processing code?
+My idea is to compare and contrast with the result of batch processing, but it is hard to do 1-1 matching, so we end up comparing
+metrics/checksum
+
+3. What is the ideal test coverage in your opinion?
+I aim for 80% unit and integration combined
+
+4. Any cross-DC consensus tool used? What is the performance?
+
+5. Could you give me a case when switching from MVP to real product, when the MVP's design is no longer enough, and yet you have tight time constraint?
+When I had such experience, I had to stick with MVP. Would be nice if we can fight for a proper rewrite.
+
+6. When do you pay for your techinical debt, espeically seems there is ever coming business request?
+IMO, a techinical debt is not a debt if it is not blocking business request.
+For architectural decisions, when we evaluate the MVP architecture and agree that MVP might not be able to handle the scale later, then
+re-architeturing should be part of the business request.
+
+7. Do you do roll-back/downgrade on prod? How is that process?
+I never tried downgrade myself. Normally I just upgrade with reverted changes. Would be interesting to see other people's stories
+
+8. Any sev1 happened before, and how do you solve them? Espeically the part where the cookbook couldn't handle it?
+
+9. How do you debug prod issues? Any examples? 
+
+10. How does contributing to open sources align with your OKR?
+
+11. How do you do rolling upgrade on prod? Espeically how do you enforce logic's backward compatibility during such rolling restarts

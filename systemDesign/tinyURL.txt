@@ -1,0 +1,38 @@
+design a website to accept a long URL and provide a shorted URL.
+
+Operation to support
+1.given a long URL, return a short one
+probably just do a SHA-256 bit hash, of course tranlate to alphanumeric letters 62^10 is enough
+2.given the short url, redirect them to a long one
+
+high level components
+1. a component that implement a first function
+
+Need to maintian a mapping between long and short
+Need to find a way to generate short URL consistently 
+
+2. a component that implemnt the second fucntion
+Need to maintain a mapping between short and long
+
+a transaction is not there, what to do?, store both info, and try recover whenever possible!
+
+
+
+How to share data across DCs?
+ single master, with replicated log, either bin long capture or a separate message queue, use a cross DC ZK to keep track of which DC is the master
+
+Questions: 
+GUID vs incremental ID?
+i.e., distributed vs centralized id generation
+
+given an incoming short URL, how do you know which machine to use to look up? 
+The idea should be similar to DNS
+
+how to replicate instances? How to recover fast? How to keep read/write consistent?
+
+How to reshard the database while keeping the system running can be an extremely difficult problem.
+That is why we in general overshard it, or replay the log
+
+There can be multiple users inserting the same URL or editing the same alias at the same time. 
+
+What is the latency requirement
