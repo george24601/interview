@@ -1,8 +1,3 @@
-Return the most popular 10 words in the past 24 hours for twitter 
-Follow up in order to reduce the size of each log, do not write timestamp, how to get the same answer,
-
---------
-
 Design Live comments. If your facebook.com homepage is open with bunch of feeds and if someone comments on those feeds, the comments should automatically show up in facebook.com home page without refreshing the page. Feeds could be a simple status update by a friend, post in a group, post by a person you're following, post in a page you've liked etc. 
 
 Few things what they are looking for - 
@@ -16,22 +11,16 @@ Few things what they are looking for -
 Design an online poker game for multiplayer. Solve for persistence, concurrency, scale . Draw the ER diagram for this
 
 -----
-Design dropbox's architecture.
-
------
 Design a picture sharing website. How will you store thumbnails, photos? Usage of CDNS? caching at various layers etc.
 
 --------
-Search engine (generally asked with people who have some domain knowledge ) : basic crawling, collection, hashing etc. Dependes on your expertise on this topic
+Search engine : basic crawling, collection, hashing etc.
 
 -------
 A web application for chatting, eg whatsapp, facebook chat. Issues of each, scaling problems, status and availablility notification etc.
 
 ------
 Design a system for collaberating over a document simulataneously (eg google docs)
-
------
-(very common:) top 'n' or most frequent items of a running stream of data
 
 ----
 Suppose that there exists a service to fetch Facebook posts through an interface defined by you, design the Facebook wall feed.
