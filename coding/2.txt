@@ -2,17 +2,7 @@
 Given a set of possibly overlapping rectangles in different levels (All of which are "not rotated", can be uniformly represented as (left-bottom,right-top) tuplets), return a minimal set of (non-rotated) non-overlapping rectangles, that occupy the same area. 
 The rectangle at lower level has more priority than at higher levels.
 
--------
 ------
-
-Given a decimal number, write a function that returns its negabinary (i.e. negative 2-base) representation as a string.
-
-assert solution(-15) ==	'110001'
-assert solution(2) == '110'
-assert solution(13) == '11101'
-
--------
-
 Given integer k and a subset S of set {0, 1, 2, ..., 2^k - 1} 
 Return the count of pairs (a, b) where a and b are from S and (a < b) and (a & b == a) 
 & here is bit-wise and. 
@@ -84,9 +74,6 @@ public int countSubSet(int[] nums, int target){
 Data structure design, N horse races, there are 10 checkpoints, whenever a horse through a check point will produce a (horse number, check point number) message, then design a data structure and algorithm to update the messages and then get the top 3 horse efficiently.
 
 -----
-
-how to find leaf node value from preorder sequence of BST without rebuilding the tree
-
 -------
 
 Say you have an array for which the ith element is the price of a given stock on day i. 
@@ -191,6 +178,95 @@ Given a pattern and a string - find if the string follows the same pattern Eg: P
 
 ----
 As an input, you have points on a 2D graph. You aim to find a straight line that can fit as my points as possible. Return, the maximum number of points you can fit.
+
+
+-----------
+Suppose you have a 2-D grid. Each point is either land or water. 
+There is also a start point and a goal.
+There are also keys that open up doors. Each key corresponds to one door. 
+Implement a function that returns the shortest path from the start to the 
+goal using land tiles, keys and open doors.
+
+Data Representation
+The board will be passed as an array of chars.
+
+A board can have the following tiles.
+0 = Water 
+1 = Land
+2 = Start
+3 = Goal
+
+uppercase = door
+lowercase = key
+Example Maps (keys at each step are not required)
+`No doors`
+char[][] board1 = {{'0', '2', '1', '1', '1'},
+				   {'0', '1', '0', '0', '1'},
+				   {'0', '1', '0', '0', '3'},
+				   {'0', '1', '0', '0', '1'},
+				   {'0', '1', '1', '1', '1'}};
+path : [0,1]->[0,2]->[0,3]->[0,4]->[1,4]->[2,4]
+
+`One door`
+char[][] board2 = {{'0', '2', '1', '1', '1'},
+				   {'0', '1', 'a', '0', 'A'},
+				   {'0', '1', '0', '0', '3'},
+				   {'0', '1', '0', '0', '1'},
+				   {'0', '1', '1', '1', '1'}};
+path : [0,1]->[0,2]->[1,2]->[0,2]->[0,3]->[0,4]->[1,4]->[2,4]
+public List<int[]> solve(char[][] board) {
+
+------
+
+Given a large MxN matrix of 1s and 0s like this:
+
+
+1 1 0 0 1 0 1
+1 0 1 0 0 1 1
+0 1 1 1 0 1 0
+...
+Calculate the number of 1s in a given subset PxQ matrix. In effect, write a function:
+
+
+int ones(int startx, int starty, int len, int width);
+Looking for something better than O(n^2).
+
+--------
+tokenize string, "" and [] are token flags, such as 
+mytable "foo" [bar] "" [[[[]]]. 
+
+"" Turned into ",]] turned into], [[not escaped 
+The results of the example given above: 
+mytable 
+foo 
+bar " 
+[[] 
+public List<String> tokenizestring(String s){ 
+}
+
+--------
+
+Create an iterator class that stores a list of the built-in Iterators. 
+Implement the next() and hasNext() methods in a Round Robin pattern (pops next element in a circle). 
+Example: 
+Given a list [iterator1,iterator2, iterator3...] 
+when calling RoundIterator.next() 
+pops iterator1.next if iterator1.hasNext() is true 
+when calling RoundIterator.next() 
+pops iterator2.next() if iterator2.hasNext() is true 
+when calling RoundIterator.next() 
+pops iterator3.next if iterator3.hasNext() is true 
+... 
+when calling RoundIterator.next() 
+pops iterator1.next if iterator1.hasNext() is true 
+when calling RoundIterator.next() 
+pops iterator2.next if iterator2.hasNext() is true 
+when calling RoundIterator.next() 
+pops iterator3.next if iterator3.hasNext() is true 
+... 
+until there is no more element in any of the iterators
+
+------
 
 
 

@@ -334,11 +334,6 @@ and find the number of the sorted array at the percentage position.
 Example: Enter [1 3 2 5 4 6 7 9 8 10], and 0.6, you will return 6 
 public int findNumber(Iterator<Integer> nums, double percent){ 
 -------
-Find the length of longest arithmetic progression in array. 
-
-For example, in the array {1, 6, 3, 5, 9, 7}, the longest arithmetic sequence is 1, 3, 5, and 7
-
------
 Given a matrix of characters where '_' represents an empty space, 'T' is a tree and 'H' is a house and a coordinate of that matrix, find the sum of the minimum distances from that coordinate to each house when considering that you can move through empty spaces and houses but not through trees.
 
 -------
@@ -351,6 +346,5 @@ i like face book - 3 spaces
 i like Facebook - 2 spaces - this is expected answer.
 
 -------
-two arrays, find the common elements of two sorted array. if one array is small, the other is very big.
 
 

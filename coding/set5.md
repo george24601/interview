@@ -1,15 +1,11 @@
 Problem A
 --------
-There's a new language which uses the latin alphabet. However, you don't know the order among letters. 
+Given a decimal number, write a function that returns its negabinary (i.e. negative 2-base) representation as a string.
 
-It could be: 
-a b c d ... 
+assert solution(-15) ==	'110001'
+assert solution(2) == '110'
+assert solution(13) == '11101'
 
-as it could also be: 
-
-b e z a m i ... 
-
-You receive a list of words lexicographically sorted by the rules of this new language. From this list, derive one valid particular ordering of letters in this language.
 
 
 Problem B

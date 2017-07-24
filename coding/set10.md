@@ -19,3 +19,17 @@ Note here means that if you knew which element in P corresponded to which pair o
 x1+x2=a{k1} x2+x3 = a{k2}, ...., x{n-1} + x{n} = a{k{n-1}, x{n} + x1 = a{k{n}}
 
 
+Problem B
+-----------
+Given a vector/list of doubly linked list pointers (a pointer is the directed linkage of two nodes), count how many independent blocks of linked lists there are for the pointers given.
+
+Problem C
+---------
+Given a vector/list of doubly linked list pointers (a pointer is the directed linkage of two nodes), count how many independent blocks of linked lists there are for the pointers given.
+
+
+Problem D
+--------
+Find the length of longest arithmetic progression in array. 
+
+For example, in the array {1, 6, 3, 5, 9, 7}, the longest arithmetic sequence is 1, 3, 5, and 7
