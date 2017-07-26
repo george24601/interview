@@ -217,20 +217,6 @@ path : [0,1]->[0,2]->[1,2]->[0,2]->[0,3]->[0,4]->[1,4]->[2,4]
 public List<int[]> solve(char[][] board) {
 
 ------
-
-Given a large MxN matrix of 1s and 0s like this:
-
-
-1 1 0 0 1 0 1
-1 0 1 0 0 1 1
-0 1 1 1 0 1 0
-...
-Calculate the number of 1s in a given subset PxQ matrix. In effect, write a function:
-
-
-int ones(int startx, int starty, int len, int width);
-Looking for something better than O(n^2).
-
 --------
 tokenize string, "" and [] are token flags, such as 
 mytable "foo" [bar] "" [[[[]]]. 

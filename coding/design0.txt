@@ -126,45 +126,6 @@ There are 5 Methods that needs to be implemented
 How to implement in best possible way such that there can be 50,000 such entries?
 
 ------
-
-Considering a server that should ignore requests older than 1 second, create a structure to handle this behavior and give its complexity. 
-Use any language you want.
-------
-
-
-Let's say you have 10,000 servers, each with a billion integers. How do you find the median?
-
-------
-Given a Binary tree (Not binary Search Tree ), find the inorder successor of a node.
-
-inorder: left, mid, right
-
-if current node has right child, then it will be left most leave of the right child
-otherwise, it will be the first right child of its parent
-
-
-
-class TreeNode{
-    TreeNode left;
-    TreeNode right;
-     int val;
-    public TreeNode(int val){
-        this.val = val;
-    }
-}
-
-public TreeNode inOrderSuccessor(TreeNode root, TreeNode n) {
-}
-
------
-how to keep track of the sum in a sliding window for the data that are on disk 
-rather than memory
-
------
-
-Given a list of files. Return all the unique lines from all files.
-
-------
 How do you verify a search result list which changes consistently based on each search word and filters? 
 
 For example, how do you make sure that the list is sorted based on price or rating or etc without any identical list to compare with? Since providing an identical list as Test Input for each word is not the best approach.
