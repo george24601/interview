@@ -118,4 +118,8 @@ Calculate the number of 1s in a given subset PxQ matrix. In effect, write a func
 int ones(int startx, int starty, int len, int width);
 Looking for something better than O(n^2).
 
+Idea
+-------
+Another vague problem, very hard to do less than O(n^2) without pre-computation, which I belive is what the problem meant
+
 
