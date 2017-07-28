@@ -177,47 +177,6 @@ Print company structure tree with proper indentations. BBB, CCC and EEE directly
 Given a pattern and a string - find if the string follows the same pattern Eg: Pattern : [a b b a], String : cat dog dog cat
 
 ----
-As an input, you have points on a 2D graph. You aim to find a straight line that can fit as my points as possible. Return, the maximum number of points you can fit.
-
-
------------
-Suppose you have a 2-D grid. Each point is either land or water. 
-There is also a start point and a goal.
-There are also keys that open up doors. Each key corresponds to one door. 
-Implement a function that returns the shortest path from the start to the 
-goal using land tiles, keys and open doors.
-
-Data Representation
-The board will be passed as an array of chars.
-
-A board can have the following tiles.
-0 = Water 
-1 = Land
-2 = Start
-3 = Goal
-
-uppercase = door
-lowercase = key
-Example Maps (keys at each step are not required)
-`No doors`
-char[][] board1 = {{'0', '2', '1', '1', '1'},
-				   {'0', '1', '0', '0', '1'},
-				   {'0', '1', '0', '0', '3'},
-				   {'0', '1', '0', '0', '1'},
-				   {'0', '1', '1', '1', '1'}};
-path : [0,1]->[0,2]->[0,3]->[0,4]->[1,4]->[2,4]
-
-`One door`
-char[][] board2 = {{'0', '2', '1', '1', '1'},
-				   {'0', '1', 'a', '0', 'A'},
-				   {'0', '1', '0', '0', '3'},
-				   {'0', '1', '0', '0', '1'},
-				   {'0', '1', '1', '1', '1'}};
-path : [0,1]->[0,2]->[1,2]->[0,2]->[0,3]->[0,4]->[1,4]->[2,4]
-public List<int[]> solve(char[][] board) {
-
-------
---------
 tokenize string, "" and [] are token flags, such as 
 mytable "foo" [bar] "" [[[[]]]. 
 
@@ -253,6 +212,164 @@ pops iterator3.next if iterator3.hasNext() is true
 until there is no more element in any of the iterators
 
 ------
+Implement Ring Buffer with read and write pointers. 
+For example if the Ring buffer is implemented in the form of array of integers , one should be able to read / write more than one integer at a time. In short the data read / written should be in a chunk .
+
+-------
+Given a Starting Node and Ending Node in a Graph where each Node has a pointer to its parent and all its children nodes. Find all the leaf nodes between the Starting and Ending Node.
+
+------
+Find longest consecutive path in a binary tree. 
+1. the path can be decreasing or increasing, i.e [1,2,3,4] and [4,3,2,1] are both valid 
+2. the path can be child-parent-child, not necessarily a parent-to-child path 
+
+similar to this question: http://www.geeksforgeeks.org/longest-consecutive-sequence-binary-tree/
+
+---------
+Implement delete operation for N-ary tree. Your function should return a list of roots after deletion operation. Notice that your delete function only delete one node instead of a subtree. The delete function takes a list of nodes to be deleted.
 
 
+private class TreeNode {
+   int val;
+   TreeNode[ ] child;
+}
+
+List<TreeNode> delete(TreeNode root, HashSet<TreeNode> set) { }
+--------
+Given a list of manager and employee information represented in hashMap entries {AAA->BBB,CCC,EEE},{CCC->DDD}. 
+Print company structure tree with proper indentations. BBB, CCC and EEE directly reports to AAA, so they have one white space before "-", DDD reports to CCC, it has two whitespace before "-". The input is map<String,List<String>>
+
+
+-AAA
+ -BBB
+ -CCC
+  -DDD
+ -EEE
+--------
+
+Given N stacks, each stack contains Si elements, find the maximum sum of the M numbers in the N stacks. To get the number of the stack, only supporting get the top number. For example, S=[1,200,1,2,3], if you want to get the number 200, you need choose 3,2,1 first. 
+EX: 
+S1=[1,1,100,3] 
+S2=[2000,2,3,1] 
+S3=[10,1,4] 
+the maximum sum of the 3 numbers in the above stacks is 3+100+3=107. 
+Any better solution for this problem?
+
+-------
+
+Tom works in a warehouse. A billion (1,000,000,000) boxes are arranged in a row. They are numbered from one to one billion (from left to right). Some boxes contain a basketball (at most one basketball in each box). In total, there are N basketballs.Tom wants to organize the warehouse. He would like to see all the basketballs arranged next to each other (they should occupy a consistent interval of boxes). In one move, Tom can take one basketball and move it into an empty box. What is the minimum number of moves needed to organize the basketballs in the warehouse? 
+
+Write a function:
+
+
+class Solution { public int solution(int[] A); }
+that, given an array A containing N integers, denotes the positions of the basketballs (the numbers of the boxes in which they are placed) and returns the minimum number of moves needed to organize the basketballs in the warehouse. 
+
+For example, given: A = [6, 4, 1, 7, 10], your function should return 2 because the minimum number of moves needed to arrange all basketballs next to each other is 2. There are several ways to do it. For example, you could move the ball from the first box to the fifth, and the ball from the tenth box to the eighth. You could also move the ball from the first box to the fifth, and the ball from the tenth box to the third instead. In any case, you need at least two moves. 
+
+To be done in O(nlogn) Time complexity and O(1) space complexity
+-------
+You are the main character in a game where you have to defeat a number of enemies in order. The player has a strength value and an initial amount of money. Each enemy also has a strength value, plus a price. 
+
+When facing each enemy you can either: 
+1) Fight him (if your strength is enough). You keep your money. 
+2) Bribe him (if you have the necessary money). You subtract the enemy's price from your money, and it joins you and adds its strength to yours. 
+
+Given a starting strength and amount of money, calculate the optimal strategy and the amount of money you end with (-1 if impossible). 
+
+This can be easily solved recursively in O(2^n) basically trying out each option at every enemy. But is there a polynomial solution, maybe involving DP?
+
+-------
+Given a list of coin values, and quantity of each type of coin. Write a 
+program to return the set of all possible sums which can be made using those 
+coins. 
+ex. coins = [10, 50, 100, 500] 
+quantity = [5, 3, 2, 2] 
+sum could be 400 , 300 ,200 , 100
+
+-------
+n points on a 2D space. You observe the points from (0,0) with viewing direction and viewing angle. 
+Given an array (xn,yn), and a viewing angle v (45 degree), find the direction that can observe max number of points.
+
+------
+Given a function getRandom that returns a random double in [0,1). Write a function getRandomPermutation(int n) that takes a positive integer n as argument and returns a random permutation of first n natural numbers.
+
+------
+You are given a sorted list of distinct integers from 0 to 99, for instance [0, 1, 2, 50, 52, 75]. Your task is to produce a string that describes numbers missing from the list; in this case "3-49,51,53-74,76-99". 
+
+Examples: 
+
+[] “0-99” 
+[0] “1-99” 
+[3, 5] “0-2,4,6-99”
+-------
+Given 'n' circles (each defined by center and radius) 
+
+Write an algorithm to detect if circles intersect with any other circle in the same plane 
+
+Better than O(n^2) complexity
+
+------
+Return the pivot index of the given array of numbers. The pivot index is the index where the sum of the numbers on the left is equal to the sum of the numbers on the right. Input Array {1,2,3,4,0,6}
+
+------
+Given the village of a map represented as a 2D grid containing houses,bushes and open-spaces, write a program to find a point for conducting a meeting in the map. Such point should be minimum from all the houses in the village. 
+
+Eg.
+
+
+# # # # #
+# # A   #
+#    B  #
+#       #
+#    #  #
+#   C   #
+# # # # #
+# -> represents the bushes 
+A, B, C -> position of houses 
+
+I provided a O(n*a*b) approach, where n-> no. of houses , a,b->dimensions of the grid. 
+
+The interviewer asked me for some special cases. Can it be done more efficiently?
+
+-------
+You are given a scrambled input sentence. Each word is scrambled independently, and the results are concatenated. So: 
+
+'hello to the world' 
+might become: 
+'elhloothtedrowl' 
+
+You have a dictionary with all words in it. Unscramble the sentence.
+
+-------
+
+Given a string "2-4a0r7-4k", there are two dashes which we can split into 3 groups of length 1, 5, 2. 
+
+If we want each group to be length 4, then we get "24A0-R74k" 
+
+Given a String A and an int K, return a correctly formatted string. 
+
+IF A is "2-4A0r7-4k" and B is 4, string is "24A0-R74K" 
+IF K is 3, string is "24-A0R-74K" as the first grp could be shorter.
+
+-------
+Let's say I have a word "I love chicken", I can break the number of characters in each word, like so: [1] [4] [7] 
+[1,4] [4,7], [1,4,7]. 
+
+Now let's say I have a max = 5. The phrases with equal or fever than 5 characters are "[I], [love], and [I, love]. The longest phrase is [I,love], which contains 2 words. 
+
+Complete the Length function given. It has 2 parameters: 
+
+1) An array of integers, named array 
+2) A maximum number, named max. 
+
+int Careercup( int [] array, int max) { 
+} 
+
+Example test case 1: 
+
+[3,1,2,3] 
+4 
+
+Output expected : 2
 

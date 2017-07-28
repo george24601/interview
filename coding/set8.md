@@ -51,22 +51,38 @@ For example, if the input is {2017, 3,20} and 12, then the return is {2017,4, 1}
 
 Problem D
 -----------
-/** 
-Given many coins of 3 different face values, print the combination sums of the coins up to 1000. Must be printed in order. 
+Suppose you have a 2-D grid. Each point is either land or water. 
+There is also a start point and a goal.
+There are also keys that open up doors. Each key corresponds to one door. 
+Implement a function that returns the shortest path from the start to the 
+goal using land tiles, keys and open doors.
 
-eg: coins(10, 15, 55) 
-print: 
-10 
-15 
-20 
-25 
-30 
-. 
-. 
-. 
-1000 
-*/
+Data Representation
+The board will be passed as an array of chars.
 
+A board can have the following tiles.
+0 = Water 
+1 = Land
+2 = Start
+3 = Goal
 
+uppercase = door
+lowercase = key
+Example Maps (keys at each step are not required)
+`No doors`
+char[][] board1 = {{'0', '2', '1', '1', '1'},
+				   {'0', '1', '0', '0', '1'},
+				   {'0', '1', '0', '0', '3'},
+				   {'0', '1', '0', '0', '1'},
+				   {'0', '1', '1', '1', '1'}};
+path : [0,1]->[0,2]->[0,3]->[0,4]->[1,4]->[2,4]
 
+`One door`
+char[][] board2 = {{'0', '2', '1', '1', '1'},
+				   {'0', '1', 'a', '0', 'A'},
+				   {'0', '1', '0', '0', '3'},
+				   {'0', '1', '0', '0', '1'},
+				   {'0', '1', '1', '1', '1'}};
+path : [0,1]->[0,2]->[1,2]->[0,2]->[0,3]->[0,4]->[1,4]->[2,4]
+public List<int[]> solve(char[][] board) {
 

@@ -4,9 +4,6 @@ Given a set of numbers {x1, x2, x3, x4, ..., xN} (N>=3) a set of its pairwise su
 Restore a set of numbers given a set of its pairwise sums. 
 Note: you don't know given some k, to which i and j it refers, (i.e. input is given in undefined order) 
 
-
-EDIT: couldn't comment, so here is clarification 
-
 Example:
 
 
@@ -25,7 +22,7 @@ Given a vector/list of doubly linked list pointers (a pointer is the directed li
 
 Problem C
 ---------
-Given a vector/list of doubly linked list pointers (a pointer is the directed linkage of two nodes), count how many independent blocks of linked lists there are for the pointers given.
+As an input, you have points on a 2D graph. You aim to find a straight line that can fit as my points as possible. Return, the maximum number of points you can fit. # of points <= 2200
 
 
 Problem D
