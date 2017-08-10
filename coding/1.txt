@@ -346,5 +346,3 @@ i like face book - 3 spaces
 i like Facebook - 2 spaces - this is expected answer.
 
 -------
-
-
