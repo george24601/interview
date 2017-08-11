@@ -18,7 +18,7 @@ x1+x2=a{k1} x2+x3 = a{k2}, ...., x{n-1} + x{n} = a{k{n-1}, x{n} + x1 = a{k{n}}
 
 Problem B
 -----------
-Given a vector/list of doubly linked list pointers (a pointer is the directed linkage of two nodes), count how many independent blocks of linked lists there are for the pointers given.
+
 
 Problem C
 ---------

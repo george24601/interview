@@ -1,13 +1,4 @@
 --------
-
-Convert a binary tree into a In Order traversal circular list re-purposing the node's pointers Left & Right as Previous and Next respectively. 
-
-Hint: A single node Left & Right points to itself. 
-
-Note: This is not a binary search tree.
-
---------
-
 Inplace reverse a sentence 
 
 You given a sentence of english words and spaces between them. 

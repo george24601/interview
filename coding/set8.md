@@ -1,9 +1,11 @@
 Problem A
 -----------
-For a string chemical formula like “C6H2(NO2)3CH3”, and output a map with key as element and value as its count. 
-element can have two chars, for example Fe2(SO4)3 
-public HashMap<Character, Integer> getCount(String chemicals){ 
-}
+Convert a binary tree into a In Order traversal circular list re-purposing the node's pointers Left & Right as Previous and Next respectively. 
+
+Hint: A single node Left & Right points to itself. 
+
+Note: This is not a binary search tree.
+
 
 Problem B
 -----------
@@ -42,11 +44,27 @@ and
 Therefore, return [ [2,4], [4] ].
 ````
 
+Idea
+--------
+Have to bruteforce it, we can use pre-order traversal + in-order traversal to hash a tree, or use pre-order + size to hash it, and then put them on a map
+
+
 Problem C
 ----------
 Given a Calendar class (there are three fields, year, month, day) and a number of N, 
 Implement a function that returns the calendar after N days, 
 For example, if the input is {2017, 3,20} and 12, then the return is {2017,4, 1}
+
+Calendar after(Calendar c, int N) {
+	int numInDay = toNumInYear(c);
+
+	PII yearsSince = toYearsSince(numInDay + N, c.year);
+
+	int newYear = yearsSince.first + c.year;
+	PII monthDay = toDayWithNum(newYear, numInDay + N - yearsSince.second) 
+
+	return Calendar(newYear, monDay.first, monDay.second);
+}
 
 
 Problem D
@@ -85,4 +103,4 @@ char[][] board2 = {{'0', '2', '1', '1', '1'},
 				   {'0', '1', '1', '1', '1'}};
 path : [0,1]->[0,2]->[1,2]->[0,2]->[0,3]->[0,4]->[1,4]->[2,4]
 public List<int[]> solve(char[][] board) {
-
+}

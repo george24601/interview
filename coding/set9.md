@@ -1,7 +1,6 @@
 Problem A
 ----------
-Given a singly linked list: 1->2->3->4->5 
-Change it to 1->5->2->4->3 using O(1) space
+
 
 Problem B
 ----------
@@ -40,37 +39,4 @@ should get a solution with time complexity less than O(N^2)
 
 Problem D
 -----------
-Given the root of a binary tree containing integers, print the columns of the tree in order with the nodes in each column printed top-to-bottom.
-
-
-Input:
-      6
-     / \
-    3   4
-   / \   \
-  5   1   0
- / \     /
-9   2   8
-     \
-      7
-
-Output:
-9 5 3 2 6 1 7 4 8 0
-
-Input:
-       1
-     /   \
-    2     3
-   / \   / \
-  4   5 6   7
-
-When two nodes share the same position (e.g. 5 and 6), they may be printed in either order:
-
-Output:
-4 2 1 5 6 3 7
-or:
-4 2 1 6 5 3 7
-
-
-
 

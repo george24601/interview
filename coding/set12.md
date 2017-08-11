@@ -1,11 +1,5 @@
 Problem A
 ------------
-This is a two-part question. 
-
-Part one: Design one or more classes to represent the intersections and streets 
-in a city. Streets can be either one-way or two-way. 
-
-Part two: Using the classes from the previous question, determine whether there is a pair of intersections (A,B) such that there is exactly one route from A to B.
 
 
 Problem B
