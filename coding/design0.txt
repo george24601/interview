@@ -1,45 +1,4 @@
-	Design copy-on-write string class 
-	e.g. stringclass s("abc"); 
-	stringclass s1 = s; // no copy 
-	s = "bcd"; // copy
-
 	------
-
-	// Design and implement key value system
-	//
-	// string -> string
-	// Insert a key-value pair or modify a value
-	void put(string key, string value);
-
-	// Delete a key-value pair
-	void delete(string key);
-
-	// Gets a value given a snapshot
-	string get(string key, Snapshot snap);
-
-	// Take a snapshot
-	Snapshot takeSnapshot();
-
-	// Delete a snapshot
-	void deleteSnapshot(Snapshot snap);
-
-	// put(k1,v1)
-	// put(k2,v2)
-	// put(k3,v3)
-	// takeSnapshot -> snap1 { k1 -> v1, k2 -> v2, k3 -> v3 }
-	// get(k1,snap1) -> v1
-	// put(k1,v4)
-	// delete(k3)
-	// takeSnapshot -> snap2 { k1 -> v4, k2 -> v2 }
-	// get(k1,snap2) -> v4
-	// get(k1,snap1) -> v1
-	// get(k3,snap2) -> XX
-	// deleteSnapshot(snap1)
-	// get(k1,snap1) -> XX
-
-	// Space efficient is more important than time efficient, thus please use as small space as possible.
-
---------
 1) Finish writing the below method: bookReservation(Reservation reservation) 
 
 2) You are free to add, modify, etc the following classes and method
@@ -102,15 +61,6 @@ There are 5 Methods that needs to be implemented
 How to implement in best possible way such that there can be 50,000 such entries?
 
 ------
-How do you verify a search result list which changes consistently based on each search word and filters? 
-
-For example, how do you make sure that the list is sorted based on price or rating or etc without any identical list to compare with? Since providing an identical list as Test Input for each word is not the best approach.
-
----------
-Given a large file with sentences and query string, design a system (Class, data structs, functions, etc) and algorithm to return the smallest window (start and end offsets) in the input file where the query words (in any order) are seen in the text file. What is the time complexity?
-
------
-
 You are given three type of data sets. 
 Type 1 
 Data size: 4 billion 

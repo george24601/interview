@@ -1,33 +1,5 @@
 --------
-Inplace reverse a sentence 
-
-You given a sentence of english words and spaces between them. 
-Nothing crazy: 
-1) no double spaces 
-2) no empty words 
-3) no spaces at the ends of a sentence
-
-
-void inplace_reverse(char* arr, int length) {
-    // your solution
-}
-Example: 
-input "I wish you a merry Christmas" 
-output "Christmas merry a you wish I" 
-
-Constrains: O(1) additional memory
-
---------
 There is a list of rectangles and a list of points in a 2d space. Note that the edge of each rectangle are aligned to XY axis. question is how to find rectangles with point or points inside
-
---------
-Array of size (n-m) with numbers from 1..n with m of them missing. Find one all of the missing numbers in O(log). Array is sorted. 
-
-Example: 
-n = 8 
-arr = [1,2,4,5,6,8] 
-m=2 
-Result has to be a set {3, 7}.
 
 --------
 
@@ -327,13 +299,11 @@ public int findNumber(Iterator<Integer> nums, double percent){
 -------
 Given a matrix of characters where '_' represents an empty space, 'T' is a tree and 'H' is a house and a coordinate of that matrix, find the sum of the minimum distances from that coordinate to each house when considering that you can move through empty spaces and houses but not through trees.
 
--------
-Given a String and dictionary of words, break the string in minimum space sentence. 
-Ex: 
-inputStr = "ilikefacebook" 
-dictionary = {"i","like","face","book","facebook"} 
-Possible Strings: 
-i like face book - 3 spaces 
-i like Facebook - 2 spaces - this is expected answer.
+--------
+Given a set of possibly overlapping rectangles in different levels (All of which are "not rotated", can be uniformly represented as (left-bottom,right-top) tuplets), return a minimal set of (non-rotated) non-overlapping rectangles, that occupy the same area. 
+The rectangle at lower level has more priority than at higher levels.
+------
+n points on a 2D space. You observe the points from (0,0) with viewing direction and viewing angle. 
+Given an array (xn,yn), and a viewing angle v (45 degree), find the direction that can observe max number of points.
+------
 
--------

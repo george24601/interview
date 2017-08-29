@@ -1,5 +1,17 @@
 Problem A
 ------------
+tokenize string, "" and [] are token flags, such as 
+mytable "foo" [bar] "" [[[[]]]. 
+
+"" Turned into ",]] turned into], [[not escaped 
+The results of the example given above: 
+mytable 
+foo 
+bar " 
+[[] 
+public List<String> tokenizestring(String s){ 
+}
+
 
 
 Problem B

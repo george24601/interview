@@ -6,7 +6,6 @@ Note: you don't know given some k, to which i and j it refers, (i.e. input is gi
 
 Example:
 
-
 S = {1, 5, 10, 100} (n elements)
 P = {6, 11, 101, 15, 105, 110} (n * (n - 1) / 2 elements)
 Given P you have to restore S. 
@@ -18,7 +17,7 @@ x1+x2=a{k1} x2+x3 = a{k2}, ...., x{n-1} + x{n} = a{k{n-1}, x{n} + x1 = a{k{n}}
 
 Problem B
 -----------
-
+Given a large file with sentences and query string, design a system (Class, data structs, functions, etc) and algorithm to return the smallest window (start and end offsets) in the input file where the query words (in any order) are seen in the text file. What is the time complexity?
 
 Problem C
 ---------

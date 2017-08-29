@@ -1,5 +1,8 @@
 Problem A
 ----------
+How do you verify a search result list which changes consistently based on each search word and filters? 
+
+For example, how do you make sure that the list is sorted based on price or rating or etc without any identical list to compare with? Since providing an identical list as Test Input for each word is not the best approach.
 
 
 Problem B

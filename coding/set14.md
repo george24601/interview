@@ -53,5 +53,3 @@ Answer: 2
 0b011 
 0b101 
 Answer: 0
-
-
