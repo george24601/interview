@@ -1,7 +1,0 @@
-Design a Web Crawler 
-Case to consider:
-1. how would you avoid getting into in nite loops?
-2. how do you detect if a page has changed and need to re-crawl?
-
-You have a billion urls, where each is a huge page How do you detect the duplicate documents?
-=> pipe into a queue, with multiple works processing and send result to the coordinators, and maintain a map of hash-> IDs

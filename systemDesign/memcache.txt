@@ -1,6 +1,0 @@
-Design memcache to enable read, write and delete(single server, non-distributed)
-which DS to go with?
-eviction rules?
-how to minimize segmentation?
-How to handle concurrency?
---------

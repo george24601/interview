@@ -1,4 +1,0 @@
-Download all urls from 1000 hosts. Imagine all the urls are graph. 
-Requirement: Each host has bad internet connection among each other, Has to download url exacly once.
-
-

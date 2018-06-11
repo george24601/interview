@@ -1,9 +1,0 @@
-Say there are 100K users. Each user object has certain details like city, credit score, gender ..etc 
-
-Say there are 100 Campaigns, Each campaign has an entry criteria, meta data consists of email body / template and a rank. 
-
-Goal is to send an campaign email for each user per one day which matches the entry criteria. The email should have highest rank suitable for this user. 
-
-Ex entry criteria :- Gender should be Female, Credit score is 700-720 and San Francisco city. Typically the criteria can be combination of several things and involves different operators. 
-
-How would you design the system to find best campaign for each user and sends email?
