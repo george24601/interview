@@ -1,4 +1,8 @@
-'''Parameter array is an array of integers The function should return an integer'''
+'''
+Analysis:
+Start with a case disuccsion, and we found that the code between cases can be merged anyway, i.e., we relaxed complete search's scope, as long as the possible answer space remains.
+'''
+
 def product_of_five(array):
     array.sort()
     global n
