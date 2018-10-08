@@ -27,4 +27,30 @@ How many repairmen does this support? Let us assume that each iPhone screen take
 
 . Despite the number of cracked iPhone screens being a simpler problem than guessing the number of screen repairmen outright, few people are familiar with the frequency of iPhone screen breaks. We hope this number will be accurate to within a factor of two (we guessed 20% but it could easily be 10% or 30%). Similarly, we took a wild guess at the amount of time required to fix a given iPhone. As it turns out, the true frequency of screen breaks is close to one third of all iPhones and the average repair time is closer to half an hour.
 
+#How many piano tuners are there in Chicago?
 
+There are approximately 9,000,000 people living in the Chicago metropolitan area.
+
+On average, there are two persons in each household in Chicago.
+
+Roughly one household in twenty has a piano that is tuned regularly.
+
+Pianos that are tuned regularly are tuned on average about once per year.
+
+It takes a piano tuner about two hours to tune a piano, including travel time.
+
+Each piano tuner works eight hours in a day, five days in a week, and 50 weeks in a year.
+
+#By the beginning of fall term a few years ago, despite weeks of headline coverage concerning the "shark menace," precisely two people had died in the US from shark bites. What fraction is that, you might ask yourself, of all the people who have died during the year?
+
+There are about 300 million (3 x 108) people in the US, and the average life expectancy in this country is about 75 years (averaging men and women -- note that average life expectancy is just what we want here because it tells us how long the average person lives). This means that:
+
+3.0 x 108 people / 75 years = 4.0 x 106 people die each year.
+
+By early September, the year is about 245 days/365 days = 67% over, so roughly 0.67 x 4.0 x 106 = 2.7 x 106 people will have died by the time the semester begins. The shark victims, then, represent less than 1 out of every million deaths. Not exactly a major health threat. In contrast, two US residents die every three minutes from smoking cigarettes, and two die every 25 minutes in car accidents.
+
+#The number of grains of sand on all the beaches of the world
+
+How big a grain of sand is, how big a beach is, and how many beaches there are would be a good start. If we then calculate the volume of all the beaches and divide by the volume of a single grain, we'll have the number of grains.
+
+Sand comes in many varieties, but a typical grain is probably about 0.5 mm across, or 0.25 mm in radius, yielding a volume (assuming a spherical grain) of 1.6 x 10-2 mm3 or 6.5 x 10-11 m3HUH?. Beaches, of course, vary enormously in length, depth, and width. You may know from trying to bury your younger sibling that the sand goes down at least a couple of feet, but it does not go on indefinitely -- eventually you hit rock or dirt; 3 meters is probably a good guess at the depth. The width of beaches varies from miles in the Bay of Fundy (when the tide is out) to just a few meters along many cliff-edged coasts. Probably 200 meters is a good guess for the average. As for the amount of shoreline, we can start by looking up the Earth's circumference: 40,000 km. It is clear from looking at a globe that if you stretched out the world's shorelines, they would wrap around the Earth many times -- probably more than ten but less than a hundred. Since only some fraction of that total coastline is bounded by sandy beaches, let's guess 20 times the Earth's circumference or around 800,000 km

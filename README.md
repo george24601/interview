@@ -1,3 +1,9 @@
+### Table of Contents ###
+
+[See here](toc.md)
+
+
+
 ### Why notes on interview ###
 
 1. Everyone hates it, but it is part of the job. Therefore, knowing the rules of the game makes one better interviewer and interviewee, and by extension, better at our jobs. 
