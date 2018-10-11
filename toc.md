@@ -6,17 +6,27 @@
 
 * [Volatile keyword](http://george24601.github.io/2018/10/08/volatile.html)
 
+### Network
+
+* [TCP]()
+
+* [HTTP]()
+
+### JVM
+
+* [JVM Memory Model - Method Area](method_area.md)
+
+* [JVM Memory Model - Heap]()
+
+* [GC]()
+
+* [How to debug OOM]()
+
 ### Java Network
 
 * [DirectByteBuffer]()
 
-### JVM
-
-* [GC]()
-
-* [JVM Memory model]()
-
-* [How to debug OOM]()
+### Redis
 
 
 ### Miscellaneous
