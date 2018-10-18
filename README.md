@@ -1,13 +1,37 @@
-[Table of Contents](toc.md)
+## Table of Contents
 
-### How to use a problem set ###
+### Soft skills
+* [Self-evaluation](self_eval.md)
+* [Behaviorial interview](behaviorial.md)
 
-1. Format of each problem set: 4 - 6 coding questions, 1 system design question, and some accompanying behaviorial questions 
+### Concurrency
+* [Concurreny Concepts](concurrency_concepts.md)
 
-2. Use each set in a single session to simulate stress and exhaustion you will experience. For example, you can do two sets on a weekend day, and use the night to summarize and reflect 
+### Java Concurrency
 
-3. Ideally, find a friend to do mock interview for you. If it is hard to schedule, talk and write against a mirror to simulate the stress of looking at the interviewer.
+* [Volatile keyword](http://george24601.github.io/2018/10/08/volatile.html)
 
-4. Video/audio recording could help, although the effort might be too much.
+### Network
 
-5. For language choices, I find python to be the most convenient as I can do with much less typing than C++. Although C++ has its edge if your code needs more complex data structure
+* [TCP]()
+* [HTTP]()
+
+### JVM
+
+* [What happens when JVM wants execute main() method? Explain in as much detail as possible]()
+* [GC]()
+* [How to debug OOM]()
+
+### Java Network
+
+* [DirectByteBuffer]()
+
+### Cache/Redis
+
+* [Common anti-patterns and problems](https://www.slideshare.net/GeorgeLi12/redis-119545669)
+
+### Miscellaneous
+
+* [Numbers for performace estimation](http://george24601.github.io/2018/10/09/number.html)
+* [Fermi problem](http://george24601.github.io/2018/10/08/fermi.html)
+* [Covariance and contravariance]()
