@@ -24,7 +24,7 @@
   * [DirectByteBuffer]()
 * JVM
   * [What happens when JVM wants execute main() method? Explain in as much detail as possible]()
-  * [GC]()
+  * [Explain GC process in as much detail as you can](http://george24601.github.io/2018/11/27/jvm-gc.html)
   * [How to debug OOM]()
 * Spring and Microservices
   * [Spring concepts](spring_concepts.md)
@@ -32,7 +32,7 @@
 ### Miscellaneous
 * [Numbers for performace estimation](http://george24601.github.io/2018/10/09/number.html)
 * [Fermi problem](http://george24601.github.io/2018/10/08/fermi.html)
-* [Covariance and contravariance]()
+* [Covariance and contravariance](http://george24601.github.io/2018/11/05/covariant-contravariance.html)
 
 ### MySQL
 * [MySQL concepts](mysql_concepts.md)
