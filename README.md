@@ -28,6 +28,7 @@
 
 ### Soft skills
 * [Behaviorial interview](behaviorial.md)
+* [OKR](http://george24601.github.io/2018/12/12/okr.html)
 
 ### Redis
 * [Common anti-patterns and problems](https://www.slideshare.net/GeorgeLi12/redis-119545669)
