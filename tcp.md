@@ -4,3 +4,4 @@
 * TCP congestion control, how is it done? How does tcp decide there is congestion?
 * what is CLOSE_WAIT?
 * Use script to calculate current tcp connections, and group them by the state
+* Suppose A and B established connection with no data sent, and then B restarts, what is the state of conneciotn on A? How to get rid of/move on from this state?

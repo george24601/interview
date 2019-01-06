@@ -1,19 +1,19 @@
 ### Collections
-* [ConcurrentHashMap]()
+* [ConcurrentHashMap](http://george24601.github.io/2019/01/07/concurrent-hashmap.html)
 * [Collections](java_collection.md)
 
 ### Concurrency
 * [Volatile](http://george24601.github.io/2018/10/08/volatile.html)
 * [ThreadLocal]()
 * [Synchronized](http://george24601.github.io/2018/12/23/synchronized.html)
-* [AQS]()
-* [ConcurrentHashMap]()
+* [AbstractQueuedSynchronizer]()
 * [ConcurrentLinkedQueue]()
 
 ### Network
-  * [DirectByteBuffer]()
-  * [DelayQueue]()
-  * [CyclicBarrier]()
+ * [DirectByteBuffer]()
+ * [DelayQueue]()
+ * [CyclicBarrier]()
+ * [NIO]()
 
 ### JVM
   * [Classloader](http://george24601.github.io/2018/12/23/class-loading.html)
@@ -23,6 +23,7 @@
 
 ### Misc
 * [Ways to write a singleton]()
+* [Concurrency concepts](concurrency.md)
  
 ### Spring/ Microservices
   * [Spring concepts](spring_concepts.md)
