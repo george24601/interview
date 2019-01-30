@@ -4,7 +4,7 @@
 * [Red-Black Tree](http://george24601.github.io/2019/01/20/rbt.html)
 * [Master Theorem](https://github.com/george24601/cp/blob/master/master_theorem.md)
 
-### [Java - Table of contents](java/README.md)
+### [Java](java/README.md)
 
 ### Linux
 * [Linux/os concepts](unix_concepts.md)
@@ -31,11 +31,7 @@
 * [HTTP](http.md)
 * [Load balancing](http://george24601.github.io/2019/01/14/lb.html)
 
-### Soft skills
-* [Behaviorial interview](behaviorial.md)
-* [OKR](http://george24601.github.io/2018/12/12/okr.html)
-* [Self-evaluation](self_eval.md)
-* [Emotional Control](https://george24601.github.io/2018/07/02/emotion.html)
+### [Project Management](pm/README.md)
 
 ### Redis
 * [Common anti-patterns and problems](https://www.slideshare.net/GeorgeLi12/redis-119545669) 

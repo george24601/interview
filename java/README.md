@@ -8,24 +8,28 @@
 * [Synchronized](http://george24601.github.io/2018/12/23/synchronized.html)
 * [AbstractQueuedSynchronizer]()
 * [ConcurrentLinkedQueue]()
+* [CyclicBarrier]()
+* [ThreadPoolExecutor](http://george24601.github.io/2019/01/30/thread-pool.html)
 
 ### Network
- * [DirectByteBuffer]()
- * [DelayQueue]()
- * [CyclicBarrier]()
- * [NIO](nio.md)
+* [DirectByteBuffer]()
+* [DelayQueue]()
+* [NIO](nio.md)
 
 ### JVM
-  * [Classloader](http://george24601.github.io/2018/12/23/class-loading.html)
-  * [Explain GC process in as much detail as you can](http://george24601.github.io/2018/11/27/jvm-gc.html)
-  * [How to debug OOM]()
-  * [Why not to release resource in finalize() or try to escape gc?]() 
+
+* [Classloader](http://george24601.github.io/2018/12/23/class-loading.html)
+* [Explain GC process in as much detail as you can](http://george24601.github.io/2018/11/27/jvm-gc.html)
+* [How to debug OOM]()
+* [Why not to release resource in finalize() or try to escape gc?]() 
 
 ### Misc
+
 * [Ways to write a singleton]()
 * [Concurrency concepts](concurrency.md)
  
 ### Spring/ Microservices
-  * [Spring concepts](spring_concepts.md)
+
+* [Spring concepts](spring_concepts.md)
 
 
