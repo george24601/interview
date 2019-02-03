@@ -7,4 +7,5 @@
 * Suppose A and B established connection with no data sent, and then B restarts, what is the state of conneciotn on A? How to get rid of/move on from this state?
 * Too many time_wait? how about close_wait? What are the possible causes?
 * TCP congestion control?
-* full conneciton q vs half connection q
+* full conneciton q (timed resend syn+ ack, forces the client to think the original ACK is lost, so just retry) vs half connection q
+* How to handle/mitigate/solve sequence wraparound problem? 
