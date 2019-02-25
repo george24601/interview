@@ -35,10 +35,29 @@ def product_of_five(array):
 '''
 If no previous exists, all entries are ordered. Therefore, we start from from the tail and find the first OOO entry, 
 and then from the tail again to find the first entry < the OOO one, and then reverse the whole subarray after the OOO entry
+
+TODO: clean up with mulitple assignments
 '''
 
 def previous_permutation(permutation):
-    pass
+    global n
+    firstOdd = -1
+    for i in range(n -1, 0, -1):
+        if permutation[i-1] > permutation[i]:
+            firstOdd = i
+
+    if firstOdd < 0:
+        return permutation;
+
+    for i in range(firstOdd, n):
+        if(permutation[i-1] > permutation[i]):
+            temp = permutation[i -1]
+            permutation[i -1] = permutation[i];
+            permutation[i] = temp
+        else:
+            break;
+
+    return permutation;
 
 '''
 Idea 1: 
@@ -48,7 +67,46 @@ When it is duplicate, we sort the array and check if we are swapping with the sa
 
 Idea 2:
 Start with sorted array, and keep calling next_perm(permutation), until it is all reversely sorted
+
+TODO: clean up with multiple assignments
 '''
 
+def next_permutation(permutation):
+    global n
+    firstI= -1
+    firstV = -1
+    for i in range(n -1, 0, -1):
+        if permutation[i-1] < permutation[i]:
+            firstI = i - 1
+            firstV = permutation[firstI];
+            break;
+
+    if firstI < 0:
+        return False;
+
+    newI = -1;
+    newV = -1;
+    for i in range(firstI + 1, n):
+        if(permutation[i] > firstV):
+            newI = i 
+            newV = permutation[i]
+        else:
+            break;
+
+    permutation[newI] = firstV;
+    permutation[firstI] = newV;
+    permutation[firstI + 1:] = sorted(permutation[firstI + 1:])
+    print(' '.join(map(str, permutation)))
+
+    return True;
+
+def print_permutations(array):
+    global n;
+    array.sort(key=None, reverse=False)
+    print(' '.join(map(str, array)))
+    while True:
+        good = next_permutation(array)
+        if not good:
+            break
 
 
