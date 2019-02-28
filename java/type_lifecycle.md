@@ -26,3 +26,5 @@
 * newInstance() on Class or java.lang.reflect.Constructor object
 * clone() exisiting object
 * deserialize via getObject() from I/O stream?
+
+Static code block will be compiled and put into clinit, when JVM executes clinit, it will lock this block, so DL may happen if they try to acquire each other's clinit via Class.forname.

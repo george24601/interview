@@ -1,22 +1,3 @@
-## Behaviroal Interview
-1. PREPARE for it, by doing mock interviews, or at least record your own answer, and analyze it yourself. I can not stress this enough!
-
-2. The proper interview style of communication should be highly efficient. This is a great way to evaluate candidate's communication skill in a context-less settings. This also means , ideally, our professional communication when there is little shared context should follow the similar pattern. 
-
-3. Knowing rules of the game doesn't mean you can cheat. In fact, human beings are really good at detecting fake emotions, unless you are a great actor. The overall goal is to present yourself in an efficent way. Conversely, an interviewer needs to  understand what tricks the candidate might pull off.
-
-### Things to focus on during practice
-1. develop STAR stories
-STAR:
-Situtation and Task:
-Action YOU TOOK:
-Result: How does it end? what did you/the project accomplish? What did you learn from it
-
-2. be specific, and avoid generalization -> show what YOU did, not what YOUR TEAM did, or what you WOULD do. Note this is quite different from day-to-day communication, where giving credit to other people and reflecting upon oneself is appreciated
-
-3. Focus on facts and avoid comment/conclusions. Note that is very different from day-to-day communication, where people prefer conclusions to context + facts
-
-
 ### What is your greatest weekness?
 Scenario: the flip side of being passionate about my work is that I may get emotionally affected by my work
 Action:
@@ -28,12 +9,11 @@ Result:
 Most of my communications at work is only about facts or conclusions supported by facts. The only emotional part I communicate is when I praise others.
 
 ### Give me a case where you trade technical debt for business goals
-See past project on the SDK design
 
 ### Give me a case where you trade business goals for technical debts
 Generally we don't sacrifice business goals. Very hard for me to recall.
 
-### What is your long-range objective?
+### What is your long-range objective? Where do you see yourself in five years time?
 Scenario:
 I want to become an architect that could design and be responsible for performance-sensitive, mission-critical components.
 Action:
@@ -100,7 +80,10 @@ See the DW project.
 ### Is there a particular experience that stands out as one you never want to repeat because you did not meet your
 normal standards of performance? What, and why?
 
-### Tell me about yourself,a.k.a., why are you the best candiate for the job
+### Tell me about yourself / your work experience
+You should begin your answer with an overview of your highest qualification, then run through the jobs you've held so far in your career. You can follow the same structure as your CV, giving examples of achievements and the skills you've picked up along the way, but it’s important not to go into too much detail as your interviewer will ask you to expand on any areas where they'd like more information.
+
+
 
 ### Tell me a case where you accept a decision you disagree
 See people you find hard to work with.
@@ -130,7 +113,7 @@ Spend an extra week researching and debugging the leak, so conclusiton
 Result:
 Why I did wrong? given we have other tasks at hand, and the client's issue has gone away already. This ticket has lost its priority, and that means I should switch prioritiy at that time.
 
-### Why applying for this company?
+### Why applying for this company? Why do you want this job? Tell me about your current role and why you’re looking to move on.
 for some company, this question is a must-have. Although there’s no standard answer here, some answers are clearly bad and it’s almost for sure that the candidate will fail.
 
 Some candidates may say that they want to join here because they didn’t have much chance to learn in their old companies or there’s no room to grow. This seems even worse if they came from some large corporations. If you are working at a company with 100+ employees, how could you say that you have few chance to learn any more?
@@ -160,7 +143,7 @@ reaching your decision?
 Very hard for me to make snap decisions, because I have to think twice before I can communicate with the supriors. In fact, often I force
 myself to keep my mouth shut, go back to my desk, and write out and formulate my ideas first, before I cam present it to the lead.
 
-### Describe two examples of good decisions you have made in the last six months. 
+### Describe one good decision you have made in the last six months. 
 Scenario: 
 huge turnover at my last job
 Action: 
@@ -169,13 +152,5 @@ Alternative:
 Can interview for more alternatives, but I get much less interview in Toronto, as compared to in NYC
 Stay on the current job is not a good idea either - Our CTO left only 1 month after me.
 
-## Ask interviewer questions
 
-* learning oppurtunities? 
-* how easy to move teams
-* learn different technicial area?
-* How do people share learning from past projects to help accumulate the knowledge?
-* Come up with a list of questions that matter most to you!
-
-
-
+### What skills or experience do you offer that will help you succeed in this role?
