@@ -11,7 +11,5 @@
 * [Distributed lock](https://george24601.github.io/2018/08/27/dist-lock.html)
 * [Flash sale system](https://george24601.github.io/2019/10/24/flash-sale.html)
 * [Pagination](https://george24601.github.io/2019/05/15/pagination.html)
-* [Design payment api to avoid double pay problem]()
-* Design an RPC framework? Protocl, serialization, SPI extension, proxy, retry/reload/LB, interceptor, plugin, registration centor
-* 1M promo code, how to ensure each user gets only one? click twice will get the same one?
-* 1M line file with purchased good IDs, how to find the top 100 good
+* [RPC framework](https://george24601.github.io/2019/10/25/rpc.html)
+* [Tiny URL-like system](https://george24601.github.io/2019/10/25/tiny-url.html)
