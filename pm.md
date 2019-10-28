@@ -22,3 +22,4 @@
 * [Manage oneself](https://george24601.github.io/2019/01/21/manage-yourself.html)
 * [Mythical Man-Month](https://george24601.github.io/2019/03/25/mmm.html)
 * [Secretary problem](https://george24601.github.io/2019/05/12/secretary.html)
+* [What Makes an Effective Executive](http://george24601.github.io/2019/10/30/effective-exec.html)

@@ -10,11 +10,3 @@
 * 1B URL, each url LT 56B, dedup, memory 4G
 * convert BST to a double linked list
 * DAT vs trie?
-
-### Code Evaluation criteria
-* 50% correctness + performance
-* 30% test coverage
-* 10% coding style
-* 10% documentation/explaination
-
-Need 75% to pass

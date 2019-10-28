@@ -5,9 +5,7 @@
 * What if you want to load your own config other than application.properties
 * How is IoC container initialized? How is spring IoC implemented? by reflection
 * DispatcherServlet lifecycle and how does it work? DispatherServelt/HandlerMapping/HandlerAdaptor? InitializingBean
-* How to debug OOM?
 * Why not to release resource in finalize() or try to escape gc? 
-* Why young gen needs two survival region?
 * When is class loading triggered and unloaded?
 * When are minor GC and full GC triggerd?
 * CLH sync queue, how are unbaised and biased implmented
