@@ -11,6 +11,7 @@
 
 ### JVM
 * [Classloader](https://george24601.github.io/2018/12/23/class-loading.html)
+* [Creating new object](https://george24601.github.io/2019/11/01/jvm-new-obj.html)
 * [GC](https://george24601.github.io/2018/11/27/jvm-gc.html)
   * [CMS](https://george24601.github.io/2019/01/28/cms.html)
   * [G1](https://george24601.github.io/2019/01/03/g1-gc.html)

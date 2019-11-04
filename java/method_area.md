@@ -1,9 +1,7 @@
 ## How is class-related data stored on JVM? 
 
 * Class loader reads the class file and loads the interpreted data into the JVM
-
 * Static non-final variables are stored in the memory area, but static final variables are stored in runtime constant pool - still in the PermGen though. Also, final class variables are stored as part of the data that any type can use, whereas class variables is stores as part of the data for the type that declares them
-
 * For each type: 
   * FQN of the type
   * FQN of super class
