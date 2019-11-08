@@ -16,10 +16,7 @@
 ### Kafka
 * [Flushing mechanism](http://george24601.github.io/2019/03/13/innodb-kafka-flushing.html)
 
-### MySQL
-* [Deadlock cases](http://george24601.github.io/2019/02/25/innodb-deadlock.html)
-* [InnoDB lock behavior under repeatable read](http://george24601.github.io/2018/11/19/innodb-lock.html)
-* [Structured problem set for DBA](https://george24601.github.io/2019/09/21/dba-interview.html)
+### [MySQL/Aurora](mysql.md)
 
 ### Network
 * [Common TCP questions](https://george24601.github.io/2019/05/10/tcp.html)
