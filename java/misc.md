@@ -10,4 +10,3 @@
 logger.error(param, object strings + "_" + e.getMessage(), e)
 ```
 * Why need to override hashcode and equals?
-

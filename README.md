@@ -2,10 +2,9 @@
 
 ### [Behavioral](behavioral.md)
 
-### Cache and redis
+### [Cache and redis](https://george24601.github.io/2019/10/29/redis.html)
 * [Common anti-patterns](https://www.slideshare.net/GeorgeLi12/redis-119545669) 
   * [Part 2](https://www.slideshare.net/GeorgeLi12/redis-part-2)
-* [Common problems](https://george24601.github.io/2019/10/29/redis.html)
 
 ### [Java](java/README.md)
 
