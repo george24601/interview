@@ -1,17 +1,18 @@
 ### Collections
 * [ConcurrentHashMap](https://george24601.github.io/2019/01/07/concurrent-hashmap.html)
 * [LRU](LRU.java)
-* How is list deletion implemented?
+* [Remove ArrayList element inside foreach](http://george24601.github.io/2019/11/20/remove.html)
 
 ### Concurrency
-* [Volatile and singleton](https://george24601.github.io/2019/11/18/volatile.html)
+* [AbstractQueuedSynchronizer](https://george24601.github.io/2019/10/08/aqs.html)
+* CyclicBarrier
+* LinkedBlockingQueue
+* ReentrantReadWriteLock
 * [Synchronized, biased lock, and lightweight lock](https://george24601.github.io/2018/12/23/synchronized.html)
 * [ThreadPoolExecutor](https://george24601.github.io/2019/01/30/thread-pool.html)
 * [Thread states](https://george24601.github.io/2019/10/06/thread-state.html)
 * [ThreadLocal](https://george24601.github.io/2019/10/07/threadlocal.html)
-* [AbstractQueuedSynchronizer](https://george24601.github.io/2019/10/08/aqs.html)
-* Reentrant lock
-* Write a Producer-consumer
+* [Volatile and singleton](https://george24601.github.io/2019/11/18/volatile.html)
 
 ### JVM
 * [Classloader](https://george24601.github.io/2018/12/23/class-loading.html)
@@ -23,5 +24,5 @@
 
 ### Spring
 * [AOP](https://george24601.github.io/2019/10/04/spring-aop.html)
-* Spring bean life cycle? How are init-method and destory-method implemented?
 * How does Spring solve circular dependnecy?
+* Spring bean life cycle? How are init-method and destory-method implemented?
