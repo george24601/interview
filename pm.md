@@ -2,6 +2,7 @@
 
 ### Communication
 * [How to write design doc](https://george24601.github.io/2018/10/19/design-doc)
+* [Oral commmunication](https://george24601.github.io/2018/07/29/oral.html)
 * [Writing weekly report](https://george24601.github.io/2019/04/10/weekly-report.html)
 
 ### Interview and hiring
@@ -11,6 +12,7 @@
 
 ### Leadership
 * [Behave professionally](https://george24601.github.io/2019/11/07/prof.html)
+* [Deadline and time estimation](https://george24601.github.io/2019/11/21/time.html)
 * [Decision making framework](https://george24601.github.io/2019/11/10/decision.html)
 * [How to conduct 1 on 1](https://george24601.github.io/2018/06/11/1on1.html)
 * [How do people get stuck](https://george24601.github.io/2019/11/04/how-people-stuck.html)
@@ -25,6 +27,7 @@
 
 ### Reading notes on famous book/posts that every team will benefit
 * [Context, not control](https://george24601.github.io/2019/03/14/context-not-control.html)
+* [High output managment](https://george24601.github.io/2019/11/23/high.html)
 * [How to win friends and influence people](https://george24601.github.io/2019/11/05/win-friends.html)
 * [Never split the difference](https://george24601.github.io/2019/02/07/split-difference.html)
   * [How to negotiate with an accommodator](https://george24601.github.io/2019/02/04/negotiate-with-accommodator.html)

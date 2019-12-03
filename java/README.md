@@ -1,5 +1,6 @@
 ### Collections
 * [ConcurrentHashMap](https://george24601.github.io/2019/01/07/concurrent-hashmap.html)
+* LinkedHashMap and LinkedHashSet
 * [LRU](LRU.java)
 * [Remove ArrayList element inside foreach](http://george24601.github.io/2019/11/20/remove.html)
 

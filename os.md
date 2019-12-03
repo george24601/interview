@@ -1,4 +1,4 @@
-### Linux/OS
+### OS
 
 * States of a process, and how to check a process's status?
 * How to create daemon process? What is zombie process?

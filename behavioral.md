@@ -29,3 +29,9 @@
 * What have you done that shows initiative in your career?
 * What are your major weaknesses and what are your strengths?
 * What does ‘teamwork’ mean to you?
+* Tell me about a recent project which was very challenging, explain the challenge and tell me how you went about solving it?
+* Tell me about a project where you had to work with cross functional teams and had difficulty in managing the expectation from one of those teams? How did you handle such scenario?
+* Tell me about a scenario where you had a conflict with senior/junior in your team, how did you resolve this?
+* Tell me about a scenario where you couldn’t meet your commitments on a project, what was the situation and impact? how did you handle the situation?
+* Tell me about a scenario where you discovered an issue in your design in the middle of the project and how do you went about resolving it?
+* What is your process of project prioritization? What do you do, if in the middle of the project requirement changes?
