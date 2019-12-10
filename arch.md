@@ -14,5 +14,6 @@
 * [Pagination](https://george24601.github.io/2019/05/15/pagination.html)
 * [RPC framework](https://george24601.github.io/2019/10/25/rpc.html)
 * [Search engine](https://george24601.github.io/2019/10/28/search-engine.html)
+* Service registry center
 * [Social network](https://george24601.github.io/2019/10/28/social-network.html)
 * [Tiny URL](https://george24601.github.io/2019/10/25/tiny-url.html)
