@@ -1,11 +1,14 @@
 ### General guidelines
+* [2PC, TCC, and Saga](http://george24601.github.io/2018/06/19/saga-isolation.html)
 * [Capacity planning guideline](https://george24601.github.io/2019/05/06/capacity-process.html)
-* [Fermi problem](https://george24601.github.io/2018/10/08/fermi.html)
+* Estimation
+  * [Fermi problem](https://george24601.github.io/2018/10/08/fermi.html)
+  * [Little's Law](https://george24601.github.io/2018/12/03/little-law.html)
+  * [Numbers for performace estimation](https://george24601.github.io/2018/10/09/number.html)
+  * [Zipf's law](https://george24601.github.io/2019/05/13/kelly-criterion.html)
 * [How NOT to measure latency](https://george24601.github.io/2019/04/04/latency)
-* [Little's Law](https://george24601.github.io/2018/12/03/little-law.html)
-* [Numbers for performace estimation](https://george24601.github.io/2018/10/09/number.html)
 * [PACELC](https://george24601.github.io/2019/03/27/pacelc.html)
-* [Zipf's law](https://george24601.github.io/2019/05/13/kelly-criterion.html)
+
 
 ### System Design
 * [Distributed lock](https://george24601.github.io/2018/08/27/dist-lock.html)

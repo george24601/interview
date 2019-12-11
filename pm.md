@@ -12,6 +12,7 @@
 
 ### Leadership
 * [Behave professionally](https://george24601.github.io/2019/11/07/prof.html)
+* [Emotion control](https://george24601.github.io/2019/07/02/emotion.html)
 * [Deadline and time estimation](https://george24601.github.io/2019/11/21/time.html)
 * [Decision making framework](https://george24601.github.io/2019/11/10/decision.html)
 * [How to conduct 1 on 1](https://george24601.github.io/2018/06/11/1on1.html)
@@ -19,9 +20,9 @@
 * [How to deal with credit-stealing management](https://george24601.github.io/2019/05/08/credit-stealing.html)
 * [Motivating the team](https://george24601.github.io/2019/11/06/motivate.html)
 
-### Train the team
-* [Emotion control](https://george24601.github.io/2019/07/02/emotion.html)
+### Tech Training for the team
 * [Google code review guideline](https://george24601.github.io/2019/10/24/cr.html) 
+* Kanban
 * [Refactoring](https://george24601.github.io/2018/03/26/refactor.html)
 * [Scalability checklist](https://george24601.github.io/2019/10/17/scalable-checklist.html)
 
