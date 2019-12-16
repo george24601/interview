@@ -11,7 +11,7 @@
 * [AbstractQueuedSynchronizer](https://george24601.github.io/2019/10/08/aqs.html)
 * CyclicBarrier
 * LinkedBlockingQueue
-* [ReentrantLock and ReentrantReadWriteLock]()
+* [ReentrantLock](http://george24601.github.io/2019/12/10/reentrant.html)
 * [Synchronized, biased lock, and lightweight lock](https://george24601.github.io/2018/12/23/synchronized.html)
 * [ThreadPoolExecutor](https://george24601.github.io/2019/01/30/thread-pool.html)
 * [Thread states](https://george24601.github.io/2019/10/06/thread-state.html)

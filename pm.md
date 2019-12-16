@@ -23,6 +23,7 @@
 ### Tech Training for the team
 * [Google code review guideline](https://george24601.github.io/2019/10/24/cr.html) 
 * Kanban
+* [How NOT to measure latency](https://george24601.github.io/2019/04/04/latency)
 * [Refactoring](https://george24601.github.io/2018/03/26/refactor.html)
 * [Scalability checklist](https://george24601.github.io/2019/10/17/scalable-checklist.html)
 

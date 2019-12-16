@@ -9,3 +9,4 @@
 * convert BST to a double linked list
 * DAT vs trie?
 * Use multi-thread to calc how many prime numbers betwenn 1 and 1 mil
+* 3 threads to write into the same list 1,2,3, and you need to output 123123, the time is decided by the thread A

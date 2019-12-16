@@ -22,8 +22,8 @@
 ### [MySQL/Aurora](mysql.md)
 
 ### Network
-* [Common TCP questions](https://george24601.github.io/2019/05/10/tcp.html)
 * [Load balancing](https://george24601.github.io/2019/01/14/lb.html)
+* [TCP and HTTP](https://george24601.github.io/2019/05/10/tcp.html)
 
 ### Python
 
