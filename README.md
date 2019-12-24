@@ -16,8 +16,7 @@
 * [IO and zero-copy](http://george24601.github.io/2019/05/04/sync-async-io.html)
 * [Java NIO](http://george24601.github.io/2019/10/02/nio.html)
 
-### Kafka
-* [Flushing mechanism](http://george24601.github.io/2019/03/13/innodb-kafka-flushing.html)
+### [Kafka](kafka.md)
 
 ### [MySQL/Aurora](mysql.md)
 

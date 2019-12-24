@@ -9,10 +9,12 @@
 
 
 ### System Design
+* Delayed task
 * [Distributed lock](https://george24601.github.io/2018/08/27/dist-lock.html)
 * [E-commerce point system](https://george24601.github.io/2019/10/29/point-system.html)
 * [Flash sale system](https://george24601.github.io/2019/10/24/flash-sale.html)
 * Huge data processing
+* Kafka to RocketMQ double write + double read problem, to ensure seamless migration
 * [Pagination](https://george24601.github.io/2019/05/15/pagination.html)
 * [RPC framework](https://george24601.github.io/2019/10/25/rpc.html)
 * [Search engine](https://george24601.github.io/2019/10/28/search-engine.html)
