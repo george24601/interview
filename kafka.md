@@ -1,6 +1,5 @@
 ### Kafka
 
-* [Flushing mechanism](http://george24601.github.io/2019/03/13/innodb-kafka-flushing.html)
 * how is it stored on disk
 * How does Kafka controller handles failover
 * How does leader and follower sync data

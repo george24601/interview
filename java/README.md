@@ -1,6 +1,5 @@
 ### Coding
 * [LRU](LRU.java)
-* Implment a token bucket. (Use Guava as the inspiration)
 
 ### Collections
 * [ConcurrentHashMap](https://george24601.github.io/2019/01/07/concurrent-hashmap.html)
@@ -28,5 +27,5 @@
 
 ### Spring
 * [AOP](https://george24601.github.io/2019/10/04/spring-aop.html)
-* How does Spring solve circular dependnecy?
+* [How does Spring solve circular dependnecy?](https://george24601.github.io/2019/12/29/circular.html)
 * Spring bean life cycle? How are init-method and destory-method implemented?

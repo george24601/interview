@@ -7,16 +7,16 @@
   * [Part 2](https://www.slideshare.net/GeorgeLi12/redis-part-2)
 
 ### [Coding](problem_sets/README.md)
-* Livelock
 
 ### [Java](java/README.md)
 
 ### Linux/OS
-* [Inter-process communication mechanisms](http://george24601.github.io/2018/12/04/ipc.html)
-* [IO and zero-copy](http://george24601.github.io/2019/05/04/sync-async-io.html)
-* [Java NIO](http://george24601.github.io/2019/10/02/nio.html)
+* [Inter-process communication mechanisms](https://george24601.github.io/2018/12/04/ipc.html)
+* [IO and zero-copy](https://george24601.github.io/2019/05/04/sync-async-io.html)
+* [Java NIO](https://george24601.github.io/2019/10/02/nio.html)
 
-### [Kafka](kafka.md)
+### Kafka
+* [Flushing mechanism](http://george24601.github.io/2019/03/13/innodb-kafka-flushing.html)
 
 ### [MySQL/Aurora](mysql.md)
 

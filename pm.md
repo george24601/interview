@@ -15,10 +15,11 @@
 
 ### Negotiation and persuation
 * [Decision making framework](https://george24601.github.io/2019/11/10/decision.html)
-* Decoy effect
+* [Persuation techniques](https://george24601.github.io/2018/10/10/persuation.html)
 
 ### Project management
 * [Deadline and time estimation](https://george24601.github.io/2019/11/21/time.html)
+* [Find problem to work on](http://george24601.github.io/2019/12/17/find.html)
 * Kanban
 
 ### Training for the team
