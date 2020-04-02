@@ -19,5 +19,3 @@
 * [Red-Black Tree](https://george24601.github.io/2019/01/20/rbt.html)
 * Sentinel value and sentinel node
 * Skiplist
-
-[Problems](coding.md)
