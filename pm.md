@@ -5,7 +5,6 @@
 * [Emotion control](https://george24601.github.io/2019/07/02/emotion.html)
 * [How to conduct 1 on 1](https://george24601.github.io/2018/06/11/1on1.html)
 * [How do people get stuck](https://george24601.github.io/2019/11/04/how-people-stuck.html)
-* [How to deal with credit-stealing management](https://george24601.github.io/2019/05/08/credit-stealing.html)
 * [Motivating the team](https://george24601.github.io/2019/11/06/motivate.html)
 
 ### Interview and hiring
@@ -20,7 +19,6 @@
 ### Project management
 * [Deadline and time estimation](https://george24601.github.io/2019/11/21/time.html)
 * [Find problem to work on](http://george24601.github.io/2019/12/17/find.html)
-* Kanban
 
 ### Training for the team
 * [Google code review guideline](https://george24601.github.io/2019/10/24/cr.html) 

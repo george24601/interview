@@ -15,10 +15,9 @@
 * [Distributed lock](https://george24601.github.io/2018/08/27/dist-lock.html)
 * [E-commerce point system](https://george24601.github.io/2019/10/29/point-system.html)
 * [Flash sale system](https://george24601.github.io/2019/10/24/flash-sale.html)
-* Kafka to RocketMQ double write + double read problem, to ensure seamless migration
-* [Pagination](https://george24601.github.io/2019/05/15/pagination.html)
 * [RPC framework](https://george24601.github.io/2019/10/25/rpc.html)
 * [Search engine](https://george24601.github.io/2019/10/28/search-engine.html)
-* Service registry center
+* [Search for delivery kiosk](https://george24601.github.io/2020/04/06/kiosk.html)
+* [TODO: Service registry center](https://george24601.github.io/2019/12/30/registry.html)
 * [Social network](https://george24601.github.io/2019/10/28/social-network.html)
 * [Tiny URL](https://george24601.github.io/2019/10/25/tiny-url.html)
