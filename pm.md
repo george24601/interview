@@ -4,6 +4,7 @@
 * [Behave professionally](https://george24601.github.io/2019/11/07/prof.html)
 * [Emotion control](https://george24601.github.io/2019/07/02/emotion.html)
 * [How to conduct 1 on 1](https://george24601.github.io/2018/06/11/1on1.html)
+* [How to deal with credit-stealing](https://george24601.github.io/2019/05/08/credit-stealing.html)
 * [How do people get stuck](https://george24601.github.io/2019/11/04/how-people-stuck.html)
 * [Motivating the team](https://george24601.github.io/2019/11/06/motivate.html)
 

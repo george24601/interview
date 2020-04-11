@@ -11,13 +11,17 @@
 
 ### System Design
 
-* Delayed task
+* [CDN](https://george24601.github.io/2017/07/24/content-delivery)
 * [Distributed lock](https://george24601.github.io/2018/08/27/dist-lock.html)
 * [E-commerce point system](https://george24601.github.io/2019/10/29/point-system.html)
 * [Flash sale system](https://george24601.github.io/2019/10/24/flash-sale.html)
+* [Huge data processing](https://george24601.github.io/2020/04/07/data.html)
+* [Request tracing](https://george24601.github.io/2020/04/11/tracing.html)
 * [RPC framework](https://george24601.github.io/2019/10/25/rpc.html)
 * [Search engine](https://george24601.github.io/2019/10/28/search-engine.html)
 * [Search for delivery kiosk](https://george24601.github.io/2020/04/06/kiosk.html)
-* [TODO: Service registry center](https://george24601.github.io/2019/12/30/registry.html)
+* [Service registry center](https://george24601.github.io/2019/12/30/registry.html)
 * [Social network](https://george24601.github.io/2019/10/28/social-network.html)
 * [Tiny URL](https://george24601.github.io/2019/10/25/tiny-url.html)
+* Timed execution
+* [Windowed top k](https://george24601.github.io/2020/04/10/window.html)

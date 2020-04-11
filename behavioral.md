@@ -3,9 +3,11 @@
 1. STAR stories:
   * Situtation and Task
   * Action YOU TOOK
-  * Result: How does it end? what did you/the project accomplish? What did you learn from it
+  * Result: How does it end? 
+    * What did you/the project accomplish? 
+    * What did you learn from it
 2. Be specific, and avoid generalization. Show what YOU did, not what YOUR TEAM did, or what you WOULD do. Note this is quite different from day-to-day communication, where giving credit to other people and reflecting upon oneself is appreciated. In fact, look for every opppurtunity to inject specific details
-3. Focus on facts and avoid comment/conclusions. Note that is very different from day-to-day communication, where people prefer conclusions to context + facts. If you really need to include comment/conclusions, use the eval from the third party, not yourself!
+3. Focus on facts and avoid comment/conclusions. Note that is very different from day-to-day communication, where people prefer conclusions to context + facts. If you really need to include comment/conclusions, use the eval from the third party, not yourself.
 4. For each question, prepare THREE different answers. Try to align your stories with company values
 
 
