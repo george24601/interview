@@ -9,7 +9,7 @@
 * [PACELC](https://george24601.github.io/2019/03/27/pacelc.html)
 * [LSM tree](https://george24601.github.io/2019/12/27/lsm.html)
 
-### System Design
+### System and OOP Design
 
 * [CDN](https://george24601.github.io/2017/07/24/content-delivery)
 * [Distributed lock](https://george24601.github.io/2018/08/27/dist-lock.html)
@@ -22,6 +22,6 @@
 * [Search for delivery kiosk](https://george24601.github.io/2020/04/06/kiosk.html)
 * [Service registry center](https://george24601.github.io/2019/12/30/registry.html)
 * [Social network](https://george24601.github.io/2019/10/28/social-network.html)
+* [Square cash](https://george24601.github.io/2020/04/13/sqaure.html)
 * [Tiny URL](https://george24601.github.io/2019/10/25/tiny-url.html)
-* Timed execution
 * [Windowed top k](https://george24601.github.io/2020/04/10/window.html)

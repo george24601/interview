@@ -26,6 +26,4 @@
 
 ### Python
 
-### [Problem sets](problem_sets/README.md)
-
 ### [Scaling impact - project and people management](pm.md)
