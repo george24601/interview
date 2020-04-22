@@ -1,8 +1,6 @@
-### Coding
-* [LRU](LRU.java)
-
 ### Collections
 * [ConcurrentHashMap](https://george24601.github.io/2019/01/07/concurrent-hashmap.html)
+* [Generics, covariance, and contravariance](https://george24601.github.io/2018/11/05/covariant-contravariance.html)
 * LinkedHashMap and LinkedHashSet
 * [Remove ArrayList element inside foreach](http://george24601.github.io/2019/11/20/remove.html)
 
@@ -24,6 +22,7 @@
   * [CMS](https://george24601.github.io/2019/01/28/cms.html)
   * [G1](https://george24601.github.io/2019/01/03/g1-gc.html)
 * [How to debug jvm memory issues](https://george24601.github.io/2019/10/10/oom.html)
+* [Perm gen](https://george24601.github.io/2020/04/22/permgen.html)
 
 ### Spring
 * [AOP](https://george24601.github.io/2019/10/04/spring-aop.html)

@@ -12,6 +12,7 @@
 ### System and OOP Design
 
 * [CDN](https://george24601.github.io/2017/07/24/content-delivery)
+* [Delayed task](https://george24601.github.io/2020/04/19/delay.html)
 * [Distributed lock](https://george24601.github.io/2018/08/27/dist-lock.html)
 * [E-commerce point system](https://george24601.github.io/2019/10/29/point-system.html)
 * [Flash sale system](https://george24601.github.io/2019/10/24/flash-sale.html)
