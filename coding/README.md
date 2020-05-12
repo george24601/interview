@@ -1,5 +1,6 @@
 ### Sets
 * [Set 1](https://george24601.github.io/2020/04/20/coding.html) 
+* [Set 2](https://george24601.github.io/2020/04/27/coding.html)
 
 ### Code Evaluation criteria
 * 50% correctness + performance

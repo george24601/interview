@@ -20,11 +20,16 @@
   * If you really need to include comment/conclusions, use the eval from the third party, not yourself.
 * For each question, prepare THREE different answers.
 
-### My answers
+### Example questions
 
-* [Tell me about a time you took a risk and failed](https://george24601.github.io/2019/11/05/behaviorial.html)
-* [What is an accomplishment you're proud of and why?](https://george24601.github.io/2019/11/06/behaviorial.html)
+* [Tell me about a time you took a risk and failed](https://george24601.github.io/2020/04/26/risk.html)
+* What is an accomplishment you're proud of and why?
 * [What is the most important part of getting your job done?](https://george24601.github.io/2019/11/04/behaviorial.html)
+* What's the most complex or niche thing you know a lot about? can you explain it to me in five minutes or less?
+* If you join, how will you impact the team?
+* Tell me about the most unstructured environment you’ve ever worked in
+* What do you most want me to know about you that we haven’t covered yet?
+
 
 ### References
 
