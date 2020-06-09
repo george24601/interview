@@ -1,3 +1,6 @@
+/*
+Design: use generics to implement LRU. 
+ */
 public class LRUCache<k, v> {
     private int capacity;
     private int count;

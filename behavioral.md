@@ -30,6 +30,14 @@
 * Tell me about the most unstructured environment you’ve ever worked in
 * What do you most want me to know about you that we haven’t covered yet?
 
+### Retro
+
+* [Migrating db on the critial path](https://george24601.github.io/2020/06/08/retro.html)
+* Payment read + aggregation migration
+* Fix the pipeline between wallet read and write
+* Split cashback under fire
+* Emergency scale out
+
 
 ### References
 

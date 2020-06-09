@@ -10,3 +10,4 @@
 * Mulit-level pagination
 * Page eviction algos
  * OPT/FIFO/LRU/LFU - difference between LRU and LFU?
+* When will context switch happen?

@@ -1,5 +1,5 @@
 ### Collections
-* [ConcurrentHashMap](https://george24601.github.io/2019/01/07/concurrent-hashmap.html)
+* [HashMap and ConcurrentHashMap](https://george24601.github.io/2019/01/07/concurrent-hashmap.html)
 * [Generics, covariance, and contravariance](https://george24601.github.io/2018/11/05/covariant-contravariance.html)
 * LinkedHashMap and LinkedHashSet
 * [Remove ArrayList element inside foreach](http://george24601.github.io/2019/11/20/remove.html)
