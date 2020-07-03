@@ -6,7 +6,7 @@
 * [Common anti-patterns](https://www.slideshare.net/GeorgeLi12/redis-119545669) 
   * [Part 2](https://www.slideshare.net/GeorgeLi12/redis-part-2)
 
-### [Coding](problem_sets/README.md)
+### [Coding](coding/README.md)
 
 ### [Java](java/README.md)
 

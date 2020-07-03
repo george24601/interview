@@ -3,13 +3,7 @@
 * [Set 2](https://george24601.github.io/2020/04/27/coding.html)
 * [Set 3](https://george24601.github.io/2020/05/16/coding.html)
 * [Set 4](https://george24601.github.io/2020/05/25/coding.html)
-
-### Code Evaluation criteria
-* 50% correctness + performance
-* 30% test coverage
-* 10% coding style
-* 10% documentation/explaination
-* Need 75% to pass
+* [Set 5](https://george24601.github.io/2020/06/19/coding.html)
 
 ### General
 
