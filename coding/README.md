@@ -4,6 +4,11 @@
 * [Set 3](https://george24601.github.io/2020/05/16/coding.html)
 * [Set 4](https://george24601.github.io/2020/05/25/coding.html)
 * [Set 5](https://george24601.github.io/2020/06/19/coding.html)
+* [Set 6](https://george24601.github.io/2020/07/11/coding.html)
+* [Set 7](https://george24601.github.io/2020/07/16/coding.html)
+* [Set 8](https://george24601.github.io/2020/07/20/coding.html)
+* [Set 9](https://george24601.github.io/2020/07/27/coding.html)
+* [Set 10](https://george24601.github.io/2020/08/02/coding.html)
 
 ### General
 
@@ -11,6 +16,5 @@
 * Binary Lifting
 * [Centroid Decomposition](https://george24601.github.io/2018/05/31/centroid.html)
 * [Master Theorem](https://github.com/george24601/cp/blob/master/master_theorem.md)
-* Morris's traversal
 * [Red-Black Tree](https://george24601.github.io/2019/01/20/rbt.html)
 * [Sqrt decomposition](https://george24601.github.io/2020/05/19/sqrt.html)
