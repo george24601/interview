@@ -28,3 +28,4 @@
   * [Web scale chat system](https://george24601.github.io/2020/05/12/chat.html)
 * [Square cash](https://george24601.github.io/2020/04/13/sqaure.html)
 * [Tiny URL](https://george24601.github.io/2019/10/25/tiny-url.html)
+* Dropbox: you can share documents to other users (with emails as id)
