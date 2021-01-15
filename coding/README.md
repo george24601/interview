@@ -18,7 +18,6 @@
 * [Set 17](https://george24601.github.io/2020/10/11/coding.html)
 * [Set 18](https://george24601.github.io/2020/10/25/coding.html)
 * [Set 19](https://george24601.github.io/2020/11/08/coding.html)
-* [Set 20](https://george24601.github.io/2020/11/17/coding.html)
 * [Premium set 1](https://george24601.github.io/2020/12/01/premium.html)
 * [Premium set 2](https://george24601.github.io/2020/12/06/premium.html)
 * [Premium set 3](https://george24601.github.io/2020/12/13/premium.html)
@@ -30,7 +29,6 @@
 
 * A-star
 * Bridge and cut vertices
-* [Centroid Decomposition](https://george24601.github.io/2018/05/31/centroid.html)
 * Euler path
 * [Master Theorem](https://github.com/george24601/cp/blob/master/master_theorem.md)
 * [Red-Black Tree](https://george24601.github.io/2019/01/20/rbt.html)
