@@ -6,7 +6,7 @@
 * [Common anti-patterns](https://www.slideshare.net/GeorgeLi12/redis-119545669) 
   * [Part 2](https://www.slideshare.net/GeorgeLi12/redis-part-2)
 
-### [Coding](coding/README.md)
+### [Coding](coding.md)
 
 ### [Java](java/README.md)
 
@@ -23,7 +23,5 @@
 ### Network
 * [Load balancing](https://george24601.github.io/2019/01/14/lb.html)
 * [TCP and HTTP](https://george24601.github.io/2019/05/10/tcp.html)
-
-### Python
 
 ### [Scaling impact - project and people management](pm.md)

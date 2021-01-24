@@ -18,12 +18,12 @@
 * [Set 17](https://george24601.github.io/2020/10/11/coding.html)
 * [Set 18](https://george24601.github.io/2020/10/25/coding.html)
 * [Set 19](https://george24601.github.io/2020/11/08/coding.html)
+* [Set 20](https://george24601.github.io/2021/01/07/coding.html)
 * [Premium set 1](https://george24601.github.io/2020/12/01/premium.html)
 * [Premium set 2](https://george24601.github.io/2020/12/06/premium.html)
 * [Premium set 3](https://george24601.github.io/2020/12/13/premium.html)
 * [Premium set 4](https://george24601.github.io/2020/12/21/premium.html)
 * [Premium set 5](https://george24601.github.io/2020/12/29/premium.html)
-* [Premium set 6](https://george24601.github.io/2021/01/07/premium.html)
 
 ### General
 
