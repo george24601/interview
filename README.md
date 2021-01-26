@@ -1,6 +1,7 @@
 ### [Architecture](arch.md)
 
-### [Behavioral](behavioral.md)
+### [Behavioral](https://george24601.github.io/2021/01/25/behavioral.html)
+* [Elevator pitch](https://george24601.github.io/2021/01/25/elevator.html)
 
 ### [Cache and redis](https://george24601.github.io/2019/10/29/redis.html)
 * [Common anti-patterns](https://www.slideshare.net/GeorgeLi12/redis-119545669) 
