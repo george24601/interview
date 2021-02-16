@@ -22,7 +22,6 @@
 * [Premium set 2](https://george24601.github.io/2020/12/06/premium.html)
 * [Premium set 3](https://george24601.github.io/2020/12/13/premium.html)
 * [Premium set 4](https://george24601.github.io/2020/12/21/premium.html)
-* [Premium set 5](https://george24601.github.io/2020/12/29/premium.html)
 
 ### General
 
@@ -32,3 +31,4 @@
 * Morris traversal
 * [Red-Black Tree](https://george24601.github.io/2019/01/20/rbt.html)
 * [Sqrt decomposition](https://george24601.github.io/2020/05/19/sqrt.html)
+* Sorted set
